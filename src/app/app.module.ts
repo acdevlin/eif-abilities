@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AbilitiesComponent } from './abilities/abilities.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AbilitiesComponent
   ],
   imports: [
     BrowserModule,

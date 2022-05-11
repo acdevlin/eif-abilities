@@ -1,0 +1,55 @@
+<div class="container">
+  <h2>Abilities</h2>
+  <table class="table">
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Weapon Type</th>
+          <th>Damage Modifier</th>
+          <th>Speed Modifier</th>
+          <th>Accuracy</th>
+          <th>Target HAM Pool</th>
+          <th>HAM Costs</th>
+          <th>DoT Effects</th>
+          <th>State Effects</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of JsonData">
+        <td>{{ item.ability.name }}</td>
+        <td>{{ item.ability.weaponType }}</td>
+        <td>{{ item.ability.damageMultiplier }}</td>
+        <td>{{ item.ability.speedMultiplier }}</td>
+        <td>{{ item.ability.accuracyBonus }}</td>
+        <td>{{ item.ability.poolsToDamage}}</td>
+        <td>
+          <ul>
+            <li>Health: {{ item.ability.healthCostMultiplier }}</li>
+            <li>Action: {{ item.ability.actionCostMultiplier }} </li>
+            <li>Mind: {{ item.ability.mindCostMultiplier }}</li>
+          </ul>
+        </td>
+        <td>
+          <ul *ngFor="let effect of item.ability.DoTEffects">
+            {{effect.type}}
+            <li>Target Pool: {{effect.pool}}</li>
+            <li>Chance: {{effect.chance}}%</li>
+            <li>Potency: {{effect.potency}}%</li>
+            <li>Strength: {{effect.strength}}%</li>
+            <li>Primary Percent: {{effect.primaryPercent}}%</li>
+            <li>Secondary Percent: {{effect.secondaryPercent}}%</li>
+          </ul>
+        </td>
+        <td>
+          <ul *ngFor="let effect of item.ability.stateEffects">
+            {{effect.effectType}}
+            <li>Chance: {{effect.stateChance}}%</li>
+            <li>Length: {{effect.stateLength}}%</li>
+            <li>Strength: {{effect.stateStrength}}%</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

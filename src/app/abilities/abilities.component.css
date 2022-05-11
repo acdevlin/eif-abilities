@@ -1,0 +1,7 @@
+​table tr {
+  border-width: 2px solid black;
+}​
+
+table tr:last-child { 
+  border-bottom: none; 
+}
