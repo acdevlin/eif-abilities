@@ -1,0 +1,35 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 15.0,
+        "actionCostMultiplier": 15.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_3a",
+        "combatSpam": "bonesmasher",
+        "damageMultiplier": 3.7,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "polearmhit2",
+        "range": 12.0,
+        "speedMultiplier": 1.75,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "dizzy_defense",
+                    "resistance_states"
+                ],
+                "effectType": "DIZZY_EFFECT",
+                "stateChance": 75.0,
+                "stateLength": 30.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "POLEARMWEAPON"
+    }
+}

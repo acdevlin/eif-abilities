@@ -1,0 +1,24 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "attributesToHeal": "HEALTH_ATTRIBUTE+MIND_ATTRIBUTE+ACTION_ATTRIBUTE",
+        "bleedHealIterations": 2.0,
+        "defaultTime": 3.0,
+        "diseaseHealIterations": 2.0,
+        "forceCost": 300.0,
+        "forceCostMultiplier": 0.1,
+        "healAmount": 1000.0,
+        "healBattleFatigue": 250.0,
+        "healBleedingCost": 50.0,
+        "healDiseaseCost": 50.0,
+        "healPoisonCost": 50.0,
+        "healStateCost": 50.0,
+        "healWoundAmount": 250.0,
+        "name": "totalhealother",
+        "poisonHealIterations": 2.0,
+        "range": 32.0,
+        "stateEffects": [],
+        "statesToHeal": "STUNNED_STATE+DIZZY_STATE+BLINDED_STATE+INTIMIDATED_STATE",
+        "woundAttributesToHeal": "HEALTH_ATTRIBUTE+MIND_ATTRIBUTE+ACTION_ATTRIBUTE"
+    }
+}

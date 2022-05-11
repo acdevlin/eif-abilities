@@ -1,0 +1,10 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "clientEffect": "clienteffect/pl_force_regain_consciousness_self.cef",
+        "duration": 60.0,
+        "forceCost": 1000.0,
+        "name": "regainconsciousness",
+        "stateEffects": []
+    }
+}

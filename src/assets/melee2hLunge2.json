@@ -1,0 +1,34 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 10.0,
+        "actionCostMultiplier": 30.0,
+        "animation": "knockdown_2hmelee_1",
+        "combatSpam": "lungeslam",
+        "damageMultiplier": 0.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "melee2hlunge2",
+        "range": 20.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "knockdownRecovery",
+                    "lastKnockdown"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "knockdown_defense"
+                ],
+                "effectType": "KNOCKDOWN_EFFECT",
+                "stateChance": 115.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "TWOHANDMELEEWEAPON"
+    }
+}

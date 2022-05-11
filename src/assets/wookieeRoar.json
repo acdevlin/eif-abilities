@@ -1,0 +1,37 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracySkillMod": "intimidate",
+        "actionCostMultiplier": 0.0,
+        "animation": "intimidate",
+        "combatSpam": "intim",
+        "coneAction": "true",
+        "coneAngle": 90.0,
+        "damageMultiplier": 0.0,
+        "effectString": "clienteffect/combat_special_attacker_intimidate.cef",
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "wookieeroar",
+        "poolsToDamage": "NO_ATTRIBUTE",
+        "range": 15.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "intimidate_defense"
+                ],
+                "effectType": "INTIMIDATE_EFFECT",
+                "stateChance": 115.0,
+                "stateLength": 60.0,
+                "stateStrength": 0.0
+            }
+        ]
+    }
+}

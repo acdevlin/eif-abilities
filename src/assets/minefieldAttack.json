@@ -1,0 +1,13 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "areaAction": "true",
+        "areaRange": "-1,--defaulttotheweaponrange",
+        "combatSpam": "attack",
+        "coneAction": "false",
+        "name": "minefieldattack",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "stateEffects": []
+    }
+}

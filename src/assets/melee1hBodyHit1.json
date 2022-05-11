@@ -1,0 +1,35 @@
+{
+    "ability": {
+        "DoTEffects": [
+            {
+                "chance": 16.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "HEALTH",
+                "potency": 60.0,
+                "primaryPercent": 50.0,
+                "secondaryPercent": 0.0,
+                "stateDefenseModifiers": [
+                    "resistance_bleeding",
+                    "bleed_resist"
+                ],
+                "strength": 50.0,
+                "type": "BLEEDING"
+            }
+        ],
+        "accuracyBonus": 25.0,
+        "actionCostMultiplier": 15.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "counter_high_right",
+        "combatSpam": "saimai",
+        "damageMultiplier": 1.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "melee1hbodyhit1",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 0.5,
+        "stateEffects": [],
+        "weaponType": "ONEHANDMELEEWEAPON"
+    }
+}

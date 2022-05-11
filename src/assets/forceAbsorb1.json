@@ -1,0 +1,18 @@
+{
+    "ability": {
+        "--animationCRC": "hashCode()",
+        "DoTEffects": [],
+        "buffClass": "SINGLE_USE_BUFF",
+        "clientEffect": "clienteffect/pl_force_absorb_self.cef",
+        "darkAlignBuffModifier": 0.5,
+        "darkAlignForceCostModifier": -0.5,
+        "duration": 20.0,
+        "forceCost": 1500.0,
+        "frsDarkExtraForceCostModifier": 0.002,
+        "frsLightExtraForceCostModifier": 0.002,
+        "lightAlignBuffModifier": 1.0,
+        "lightAlignForceCostModifier": -0.5,
+        "name": "forceabsorb1",
+        "stateEffects": []
+    }
+}

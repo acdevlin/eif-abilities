@@ -1,0 +1,27 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "animType": "GENERATE_INTENSITY",
+        "animation": "creature_attack_special_2",
+        "combatSpam": "attack",
+        "name": "stunattack",
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "stun_defense"
+                ],
+                "effectType": "STUN_EFFECT",
+                "stateChance": 85.0,
+                "stateLength": 10.0,
+                "stateStrength": 0.0
+            }
+        ]
+    }
+}

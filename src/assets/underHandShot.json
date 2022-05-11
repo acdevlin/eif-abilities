@@ -1,0 +1,35 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_7_single",
+        "combatSpam": "underhandshot",
+        "coneAction": "true",
+        "coneAngle": 30.0,
+        "damageMultiplier": 1.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 40.0,
+        "name": "underhandshot",
+        "range": -1.0,
+        "speedMultiplier": 0.5,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "knockdownRecovery",
+                    "lastKnockdown"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "knockdown_defense"
+                ],
+                "effectType": "KNOCKDOWN_EFFECT",
+                "stateChance": 85.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ]
+    }
+}

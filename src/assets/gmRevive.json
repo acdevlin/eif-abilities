@@ -1,0 +1,8 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "cooldown": 3000.0,
+        "name": "gmrevive",
+        "stateEffects": []
+    }
+}

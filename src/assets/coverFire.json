@@ -1,0 +1,53 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 30.0,
+        "actionCostMultiplier": 45.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "fire_heavy_cannon_cone_1",
+        "combatSpam": "sprayshot",
+        "coneAction": "true",
+        "coneAngle": 60.0,
+        "damageMultiplier": 1.25,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "coverfire",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "nextAttackDelayRecovery"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "warcry_defense"
+                ],
+                "effectType": "NEXTATTACKDELAY_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 20.0,
+                "stateStrength": 0.0
+            },
+            {
+                "defenderExlusionTimers": [
+                    "intimidate_defense"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "effectType": "INTIMIDATE_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 120.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "ROTARYWEAPON"
+    }
+}

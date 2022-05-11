@@ -1,0 +1,35 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 25.0,
+        "actionCostMultiplier": 45.0,
+        "animation": "test_homing",
+        "combatSpam": "kneecapshot",
+        "damageMultiplier": 3.6,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "legshot3",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 1.5,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "stun_defense"
+                ],
+                "effectType": "STUN_EFFECT",
+                "stateChance": 85.0,
+                "stateLength": 45.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "CARBINEWEAPON"
+    }
+}

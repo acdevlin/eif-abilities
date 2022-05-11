@@ -1,0 +1,19 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 15.0,
+        "actionCostMultiplier": 35.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "attack_special_shoulder_bash",
+        "combatSpam": "rancorrising",
+        "damageMultiplier": 2.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "unarmedbodyhit1",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "UNARMEDWEAPON"
+    }
+}

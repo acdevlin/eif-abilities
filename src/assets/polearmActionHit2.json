@@ -1,0 +1,34 @@
+{
+    "ability": {
+        "DoTEffects": [
+            {
+                "chance": 12.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "ACTION",
+                "potency": 30.0,
+                "primaryPercent": 50.0,
+                "secondaryPercent": 0.0,
+                "stateDefenseModifiers": [
+                    "resistance_bleeding",
+                    "bleed_resist"
+                ],
+                "strength": 100.0,
+                "type": "BLEEDING"
+            }
+        ],
+        "accuracyBonus": 10.0,
+        "actionCostMultiplier": 20.0,
+        "animation": "lower_posture_2hmelee_2",
+        "combatSpam": "kneesmasher",
+        "damageMultiplier": 3.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "polearmactionhit2",
+        "poolsToDamage": "ACTION_ATTRIBUTE",
+        "range": 12.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "POLEARMWEAPON"
+    }
+}

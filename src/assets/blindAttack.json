@@ -1,0 +1,27 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "animType": "GENERATE_INTENSITY",
+        "animation": "creature_attack_special_1",
+        "combatSpam": "attack",
+        "name": "blindattack",
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "blind_defense"
+                ],
+                "effectType": "BLIND_EFFECT",
+                "stateChance": 85.0,
+                "stateLength": 10.0,
+                "stateStrength": 0.0
+            }
+        ]
+    }
+}

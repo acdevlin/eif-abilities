@@ -1,0 +1,16 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "actionCostMultiplier": 0.0,
+        "areaAction": "true",
+        "areaRange": 10.0,
+        "damageMultiplier": 1.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 15.0,
+        "name": "fireheavyweapon",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": 64.0,
+        "speedMultiplier": 0.75,
+        "stateEffects": []
+    }
+}

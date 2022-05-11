@@ -1,0 +1,16 @@
+{
+    "ability": {
+        "--animationCRC": "hashCode()",
+        "DoTEffects": [],
+        "darkAlignForceCostModifier": -0.5,
+        "duration": 15.0,
+        "forceCost": 2000.0,
+        "frsDarkBuffModifier": 0.25,
+        "frsDarkExtraForceCostModifier": -0.003,
+        "frsLightBuffModifier": 0.25,
+        "frsLightExtraForceCostModifier": -0.003,
+        "lightAlignForceCostModifier": -0.5,
+        "name": "intercede",
+        "stateEffects": []
+    }
+}

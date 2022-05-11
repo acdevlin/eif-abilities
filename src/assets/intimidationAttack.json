@@ -1,0 +1,26 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "animType": "GENERATE_INTENSITY",
+        "animation": "creature_attack_special_1",
+        "combatSpam": "attack",
+        "name": "intimidationattack",
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    ""
+                ],
+                "effectType": "INTIMIDATE_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 10.0,
+                "stateStrength": 0.0
+            }
+        ]
+    }
+}

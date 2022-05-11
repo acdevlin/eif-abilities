@@ -1,0 +1,9 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "combatSpam": "multishot",
+        "name": "multitargetshot",
+        "range": -1.0,
+        "stateEffects": []
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "ability": {
+        "DoTEffects": [
+            {
+                "chance": 30.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "ATTACK_POOL",
+                "potency": 30.0,
+                "primaryPercent": 40.0,
+                "secondaryPercent": 0.0,
+                "stateDefenseModifiers": [
+                    "resistance_poison",
+                    "poison_disease_resist"
+                ],
+                "strength": 20.0,
+                "type": "POISONED"
+            }
+        ],
+        "combatSpam": "attack",
+        "name": "mildpoison",
+        "stateEffects": []
+    }
+}

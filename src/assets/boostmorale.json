@@ -1,0 +1,10 @@
+{
+    "ability": {
+        "--actionCRC": "action.hashCode()",
+        "DoTEffects": [],
+        "action": "boostmorale",
+        "combatSpam": "boostmorale_buff",
+        "name": "boostmorale",
+        "stateEffects": []
+    }
+}

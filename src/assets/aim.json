@@ -1,0 +1,12 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "combatSpam": "aim",
+        "damageMultiplier": 0.0,
+        "mindCostMultiplier": 60.0,
+        "name": "aim",
+        "range": -1.0,
+        "stateEffects": [],
+        "weaponType": "RANGEDWEAPON"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ability": {
+        "--animationCRC": "hashCode()",
+        "DoTEffects": [],
+        "clientEffect": "clienteffect/pl_force_run_self.cef",
+        "duration": 120.0,
+        "forceCost": 400.0,
+        "name": "forcerun2",
+        "speedMod": 2.5,
+        "stateEffects": []
+    }
+}

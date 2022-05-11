@@ -1,0 +1,8 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "defaultTime": "1;",
+        "name": "dragincapacitatedplayer",
+        "stateEffects": []
+    }
+}

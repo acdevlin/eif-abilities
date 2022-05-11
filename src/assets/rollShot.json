@@ -1,0 +1,33 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 30.0,
+        "actionCostMultiplier": 35.0,
+        "animation": "fire_acrobatic",
+        "combatSpam": "rollshot",
+        "damageMultiplier": 2.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "rollshot",
+        "range": -1.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    ""
+                ],
+                "effectType": "ATTACKER_FORCE_CROUCH",
+                "stateChance": 100.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "PISTOLWEAPON"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "cooldown": 2000.0,
+        "name": "createspawningelement",
+        "stateEffects": []
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracySkillMod": "forcelightning_accuracy",
+        "animType": "GENERATE_INTENSITY",
+        "animation": "force_lightning_1_arc_particle_level_3",
+        "combatSpam": "forcelightningcone2",
+        "coneAction": "true",
+        "coneAngle": 60.0,
+        "damageType": "ELECTRICITY_DAMAGE",
+        "forceAttack": "true",
+        "forceCost": 250.0,
+        "frsDarkMaxDamageModifier": 8.0,
+        "frsDarkMinDamageModifier": 4.0,
+        "frsLightMaxDamageModifier": 8.0,
+        "frsLightMinDamageModifier": 4.0,
+        "maxDamage": 4000.0,
+        "minDamage": 2000.0,
+        "name": "forcelightningcone2",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": 64.0,
+        "speed": 4.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense"
+                ],
+                "defenderStateDefenseModifiers": [
+                    ""
+                ],
+                "effectType": "DIZZY_EFFECT",
+                "stateChance": 30.0,
+                "stateLength": 10.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ability": {
+        "--animationCRC": "hashCode()",
+        "DoTEffects": [],
+        "buffClass": "SINGLE_USE_BUFF",
+        "clientEffect": "clienteffect/pl_force_feedback_self.cef",
+        "darkAlignBuffModifier": 0.5,
+        "darkAlignForceCostModifier": -0.5,
+        "duration": 10.0,
+        "forceCost": 2000.0,
+        "frsDarkBuffModifier": 0.25,
+        "frsLightBuffModifier": 0.25,
+        "lightAlignBuffModifier": 0.5,
+        "lightAlignForceCostModifier": 0.0,
+        "name": "forcefeedback1",
+        "stateEffects": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 15.0,
+        "actionCostMultiplier": 20.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "combatSpam": "threatenshot",
+        "damageMultiplier": 0.25,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "threatenshot",
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "RANGEDWEAPON"
+    }
+}

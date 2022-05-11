@@ -1,0 +1,12 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "defaultTime": 3.0,
+        "forceCost": 0.0,
+        "healStateCost": 50.0,
+        "name": "healstatesother",
+        "range": 32.0,
+        "stateEffects": [],
+        "statesToHeal": "STUNNED_STATE+DIZZY_STATE+BLINDED_STATE+INTIMIDATED_STATE"
+    }
+}

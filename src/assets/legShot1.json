@@ -1,0 +1,18 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 35.0,
+        "animation": "test_homing",
+        "combatSpam": "leg",
+        "damageMultiplier": 1.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "legshot1",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 0.25,
+        "stateEffects": [],
+        "weaponType": "CARBINEWEAPON"
+    }
+}

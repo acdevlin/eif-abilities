@@ -1,0 +1,12 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "allowedTarget": "FORCE_HEAL_TARGET_SELF+FORCE_HEAL_TARGET_OTHER",
+        "defaultTime": 2.0,
+        "forceCost": 0.0,
+        "healPoisonCost": 75.0,
+        "name": "forcecurepoison",
+        "range": 32.0,
+        "stateEffects": []
+    }
+}

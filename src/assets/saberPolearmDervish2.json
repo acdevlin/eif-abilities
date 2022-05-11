@@ -1,0 +1,73 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_jedi_2",
+        "combatSpam": "saberpolearmdervish2",
+        "coneAction": "true",
+        "coneAngle": 45.0,
+        "coneRange": 24.0,
+        "damageMultiplier": 4.5,
+        "forceCostMultiplier": 3.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "saberpolearmdervish2",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 4.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "blind_defense"
+                ],
+                "effectType": "BLIND_EFFECT",
+                "stateChance": 75.0,
+                "stateLength": 60.0,
+                "stateStrength": 0.0
+            },
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "dizzy_defense"
+                ],
+                "effectType": "DIZZY_EFFECT",
+                "stateChance": 75.0,
+                "stateLength": 30.0,
+                "stateStrength": 0.0
+            },
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "stun_defense"
+                ],
+                "effectType": "STUN_EFFECT",
+                "stateChance": 76.0,
+                "stateLength": 60.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0,
+        "weaponType": "JEDIWEAPON"
+    }
+}

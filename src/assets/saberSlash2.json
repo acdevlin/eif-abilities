@@ -1,0 +1,81 @@
+{
+    "ability": {
+        "DoTEffects": [
+            {
+                "chance": 60.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "HEALTH",
+                "potency": 75.0,
+                "primaryPercent": 16.66,
+                "secondaryPercent": 16.66,
+                "stateDefenseModifiers": [
+                    "resistance_bleeding",
+                    "bleed_resist"
+                ],
+                "strength": 100.0,
+                "type": "BLEEDING"
+            },
+            {
+                "chance": 60.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "ACTION",
+                "potency": 75.0,
+                "primaryPercent": 16.66,
+                "secondaryPercent": 16.66,
+                "stateDefenseModifiers": [
+                    "resistance_bleeding",
+                    "bleed_resist"
+                ],
+                "strength": 100.0,
+                "type": "BLEEDING"
+            },
+            {
+                "chance": 60.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "MIND",
+                "potency": 75.0,
+                "primaryPercent": 16.66,
+                "secondaryPercent": 16.66,
+                "stateDefenseModifiers": [
+                    "resistance_bleeding",
+                    "bleed_resist"
+                ],
+                "strength": 100.0,
+                "type": "BLEEDING"
+            }
+        ],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 0.0,
+        "combatSpam": "saberslash2",
+        "damageMultiplier": 2.5,
+        "forceCostMultiplier": 2.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "saberslash2",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "postureDownRecovery"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "posture_change_down_defense"
+                ],
+                "effectType": "POSTUREDOWN_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0,
+        "weaponType": "JEDIWEAPON"
+    }
+}

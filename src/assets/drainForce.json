@@ -1,0 +1,14 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "animation": "force_drain_1",
+        "combatSpam": "forcedrain_hit",
+        "forceCost": 50.0,
+        "maxDamage": 250.0,
+        "name": "drainforce",
+        "poolsToDamage": "NO_ATTRIBUTE",
+        "range": 32.0,
+        "stateEffects": [],
+        "visMod": 25.0
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "actionCostMultiplier": 0.0,
+        "animation": "",
+        "combatSpam": "attack",
+        "damageMultiplier": 1.0,
+        "forceCostMultiplier": 0.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "counterattack",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [],
+        "trails": "NOTRAIL"
+    }
+}

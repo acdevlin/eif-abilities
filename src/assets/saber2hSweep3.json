@@ -1,0 +1,36 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 0.0,
+        "animation": "lower_posture_2hmelee_3",
+        "combatSpam": "saber2hsweep3",
+        "damageMultiplier": 3.0,
+        "forceCostMultiplier": 2.25,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "saber2hsweep3",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 3.5,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "postureDownRecovery"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "posture_change_down_defense"
+                ],
+                "effectType": "POSTUREDOWN_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0,
+        "weaponType": "JEDIWEAPON"
+    }
+}

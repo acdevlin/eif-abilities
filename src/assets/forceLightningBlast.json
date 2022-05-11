@@ -1,0 +1,45 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 175.0,
+        "accuracySkillMod": "forcelightning_accuracy",
+        "animType": "GENERATE_INTENSITY",
+        "animation": "force_lightning_1_arc_particle_level_3",
+        "combatSpam": "forcelightningcone2",
+        "coneAngle": 60.0,
+        "damageType": "ELECTRICITY_DAMAGE",
+        "darkAlignForceCostModifier": 0.0,
+        "darkAlignMaxDamageMod": -0.5,
+        "darkAlignMinDamageMod": -0.5,
+        "forceAttack": "true",
+        "forceCost": 2500.0,
+        "lightAlignForceCostModifier": 1.2,
+        "lightAlignMaxDamageMod": -0.5,
+        "lightAlignMinDamageMod": -0.5,
+        "maxDamage": 16000.0,
+        "minDamage": 12000.0,
+        "name": "forcelightningblast",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": 32.0,
+        "speed": 3.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "stun_defense"
+                ],
+                "effectType": "STUN_EFFECT",
+                "stateChance": 125.0,
+                "stateLength": 60.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 0.0
+    }
+}

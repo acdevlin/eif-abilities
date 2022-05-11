@@ -1,0 +1,19 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 5.0,
+        "actionCostMultiplier": 0.5,
+        "animation": "fire_1_special_single_medium_face",
+        "combatSpam": "snipershot",
+        "healthCostMultiplier": 0.5,
+        "maxDamage": 135.0,
+        "minDamage": 135.0,
+        "mindCostMultiplier": 2.0,
+        "name": "snipershot",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speed": 1.0,
+        "stateEffects": [],
+        "weaponType": "RIFLEWEAPON"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "creature_attack_special_2",
+        "areaAction": "true",
+        "areaRange": 25.0,
+        "combatSpam": "attack",
+        "damageMultiplier": 1.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "creatureareaattack",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "speedMultiplier": 1.0,
+        "stateEffects": []
+    }
+}

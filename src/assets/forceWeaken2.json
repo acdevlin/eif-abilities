@@ -1,0 +1,18 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracySkillMod": "forceweaken_accuracy",
+        "animType": "GENERATE_INTENSITY",
+        "animation": "force_weaken_1_particle_level_1",
+        "combatSpam": "forceweaken2",
+        "damageMultiplier": 0.0,
+        "forceAttack": "true",
+        "forceCost": 400.0,
+        "name": "forceweaken2",
+        "poolsToDamage": "NO_ATTRIBUTE",
+        "range": 32.0,
+        "speed": 4.0,
+        "stateEffects": [],
+        "visMod": 25.0
+    }
+}

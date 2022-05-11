@@ -1,0 +1,8 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "defaultPriority": "immediate",
+        "name": "centerofbeing",
+        "stateEffects": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "fire_lightning_rifle_single_1",
+        "combatSpam": "firelightningcone1",
+        "coneAction": "true",
+        "coneAngle": 60.0,
+        "damageMultiplier": 1.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 15.0,
+        "name": "firelightningcone1",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 0.5,
+        "stateEffects": [],
+        "weaponType": "SPECIALHEAVYWEAPON"
+    }
+}

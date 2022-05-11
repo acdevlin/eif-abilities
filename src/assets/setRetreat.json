@@ -1,0 +1,9 @@
+{
+    "ability": {
+        "--actionCRC": "action.hashCode()",
+        "DoTEffects": [],
+        "action": "retreat",
+        "name": "setretreat",
+        "stateEffects": []
+    }
+}

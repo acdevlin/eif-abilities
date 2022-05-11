@@ -1,0 +1,12 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "defaultTime": 6.0,
+        "forceCost": 90.0,
+        "forceCostMultiplier": 1.0,
+        "healBattleFatigue": 60.0,
+        "name": "healbattlefatigueother1",
+        "range": 32.0,
+        "stateEffects": []
+    }
+}

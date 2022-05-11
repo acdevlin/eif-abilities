@@ -1,0 +1,14 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "animation": "force_transfer_1",
+        "combatSpam": "forcetransfer_hit",
+        "defaultTime": 2.0,
+        "forceCost": 200.0,
+        "minDamage": 150.0,
+        "name": "transferforce",
+        "range": 32.0,
+        "stateEffects": [],
+        "visMod": 25.0
+    }
+}

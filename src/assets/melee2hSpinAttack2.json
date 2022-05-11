@@ -1,0 +1,20 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 10.0,
+        "actionCostMultiplier": 30.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_4b",
+        "areaAction": "true",
+        "areaRange": 8.0,
+        "combatSpam": "spinslam",
+        "damageMultiplier": 4.25,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "melee2hspinattack2",
+        "range": 8.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "TWOHANDMELEEWEAPON"
+    }
+}

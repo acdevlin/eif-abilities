@@ -1,0 +1,21 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_4a",
+        "combatSpam": "saber2hbodyhit3",
+        "damageMultiplier": 2.25,
+        "forceCostMultiplier": 1.75,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "saber2hbodyhit3",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 2.25,
+        "stateEffects": [],
+        "visMod": 25.0,
+        "weaponType": "JEDIWEAPON"
+    }
+}

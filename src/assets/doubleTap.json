@@ -1,0 +1,19 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 0.0,
+        "actionCostMultiplier": 35.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_7_single",
+        "combatSpam": "doubletap",
+        "damageMultiplier": 4.25,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "doubletap",
+        "poolsToDamage": "ACTION_ATTRIBUTE+MIND_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "PISTOLWEAPON"
+    }
+}

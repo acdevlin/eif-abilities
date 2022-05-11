@@ -1,0 +1,34 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 30.0,
+        "actionCostMultiplier": 35.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_3_single",
+        "combatSpam": "disarmshot",
+        "damageMultiplier": 0.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "disarmingshot1",
+        "range": -1.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "nextAttackDelayRecovery"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "warcry_defense"
+                ],
+                "effectType": "NEXTATTACKDELAY_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 10.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "PISTOLWEAPON"
+    }
+}

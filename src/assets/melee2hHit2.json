@@ -1,0 +1,35 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 10.0,
+        "actionCostMultiplier": 15.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_2a",
+        "combatSpam": "violentstrike",
+        "damageMultiplier": 4.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "melee2hhit2",
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "intimidate_defense"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "effectType": "INTIMIDATE_EFFECT",
+                "stateChance": 80.0,
+                "stateLength": 30.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "TWOHANDMELEEWEAPON"
+    }
+}

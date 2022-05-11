@@ -1,0 +1,8 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "defaultTime": 0.25,
+        "name": "petguard",
+        "stateEffects": []
+    }
+}

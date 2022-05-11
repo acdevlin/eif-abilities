@@ -1,0 +1,16 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "combatSpam": "luckystrike",
+        "damageMultiplier": 6.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 30.0,
+        "name": "luckystrike",
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": []
+    }
+}

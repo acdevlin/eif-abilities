@@ -1,0 +1,28 @@
+{
+    "ability": {
+        "DoTEffects": [
+            {
+                "chance": 120.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "ATTACK_POOL",
+                "potency": 50.0,
+                "primaryPercent": 0.0,
+                "secondaryPercent": "}",
+                "stateDefenseModifiers": [
+                    "resistance_poison",
+                    "poison_disease_resist"
+                ],
+                "strength": 50.0,
+                "type": "POISONED"
+            }
+        ],
+        "animType": "GENERATE_INTENSITY",
+        "animation": "creature_attack_special_1",
+        "areaAction": "true",
+        "areaRange": 25.0,
+        "combatSpam": "attack",
+        "name": "creatureareapoison",
+        "stateEffects": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 10.0,
+        "actionCostMultiplier": 20.0,
+        "animation": "attack_high_left_light_2",
+        "areaAction": "true",
+        "areaRange": 10.0,
+        "combatSpam": "limbsmasher",
+        "damageMultiplier": 3.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "polearmspinattack1",
+        "range": -1.0,
+        "speedMultiplier": 1.5,
+        "stateEffects": [],
+        "weaponType": "POLEARMWEAPON"
+    }
+}

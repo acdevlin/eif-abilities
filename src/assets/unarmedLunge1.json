@@ -1,0 +1,33 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 15.0,
+        "actionCostMultiplier": 15.0,
+        "animation": "lower_posture_unarmed_1",
+        "combatSpam": "ridingbantha",
+        "damageMultiplier": 0.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "unarmedlunge1",
+        "range": 20.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "postureDownRecovery"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "posture_change_down_defense"
+                ],
+                "effectType": "POSTUREDOWN_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "UNARMEDWEAPON"
+    }
+}

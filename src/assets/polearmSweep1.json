@@ -1,0 +1,35 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 10.0,
+        "actionCostMultiplier": 30.0,
+        "animation": "knockdown_polearm_1",
+        "areaAction": "true",
+        "areaRange": 12.0,
+        "combatSpam": "backcracker",
+        "damageMultiplier": 1.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "polearmsweep1",
+        "range": 12.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "postureDownRecovery"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "posture_change_down_defense"
+                ],
+                "effectType": "POSTUREDOWN_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "POLEARMWEAPON"
+    }
+}

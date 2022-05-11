@@ -1,0 +1,35 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 10.0,
+        "actionCostMultiplier": 10.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_4a",
+        "combatSpam": "breathtaker",
+        "damageMultiplier": 1.0,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "polearmstun1",
+        "range": 12.0,
+        "speedMultiplier": 1.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "stun_defense"
+                ],
+                "effectType": "STUN_EFFECT",
+                "stateChance": 60.0,
+                "stateLength": 30.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "weaponType": "POLEARMWEAPON"
+    }
+}

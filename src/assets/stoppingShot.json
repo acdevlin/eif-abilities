@@ -1,0 +1,19 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 30.0,
+        "actionCostMultiplier": 50.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "combatSpam": "stoppingshot",
+        "damageMultiplier": 3.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "stoppingshot",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 1.5,
+        "stateEffects": [],
+        "weaponType": "PISTOLWEAPON"
+    }
+}

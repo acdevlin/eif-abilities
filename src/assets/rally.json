@@ -1,0 +1,9 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "action": "rally",
+        "combatSpam": "rally",
+        "name": "rally",
+        "stateEffects": []
+    }
+}

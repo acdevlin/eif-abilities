@@ -1,0 +1,37 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_5b",
+        "combatSpam": "saber1hcombohit2",
+        "damageMultiplier": 2.5,
+        "forceCostMultiplier": 1.75,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "saber1hcombohit2",
+        "poolsToDamage": "HEALTH_ATTRIBUTE+ACTION_ATTRIBUTE+MIND_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "postureDownRecovery"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "posture_change_down_defense"
+                ],
+                "effectType": "POSTUREDOWN_EFFECT",
+                "stateChance": 40.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0,
+        "weaponType": "JEDIWEAPON"
+    }
+}

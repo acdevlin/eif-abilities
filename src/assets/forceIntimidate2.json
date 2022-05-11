@@ -1,0 +1,36 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracySkillMod": "forceintimidate_accuracy",
+        "animation": "force_intimidate",
+        "areaAction": "true",
+        "areaRange": 16.0,
+        "combatSpam": "forceintimidate2",
+        "damageMultiplier": 0.0,
+        "forceAttack": "true",
+        "forceCost": 500.0,
+        "name": "forceintimidate2",
+        "poolsToDamage": "NO_ATTRIBUTE",
+        "range": 32.0,
+        "speed": 4.0,
+        "splashDamage": "true",
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense"
+                ],
+                "defenderStateDefenseModifiers": [
+                    ""
+                ],
+                "effectType": "INTIMIDATE_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 90.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0
+    }
+}

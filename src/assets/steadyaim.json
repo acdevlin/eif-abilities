@@ -1,0 +1,10 @@
+{
+    "ability": {
+        "--actionCRC": "action.hashCode()",
+        "DoTEffects": [],
+        "action": "steadyaim",
+        "combatSpam": "steadyaim_buff",
+        "name": "steadyaim",
+        "stateEffects": []
+    }
+}

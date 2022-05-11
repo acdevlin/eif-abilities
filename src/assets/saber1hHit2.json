@@ -1,0 +1,38 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "combo_jedi_2",
+        "combatSpam": "saber1hhit2",
+        "damageMultiplier": 2.0,
+        "forceCostMultiplier": 1.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "saber1hhit2",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": -1.0,
+        "speedMultiplier": 1.5,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    ""
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    "jedi_state_defense",
+                    "resistance_states"
+                ],
+                "defenderStateDefenseModifiers": [
+                    "blind_defense"
+                ],
+                "effectType": "BLIND_EFFECT",
+                "stateChance": 50.0,
+                "stateLength": 45.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0,
+        "weaponType": "JEDIWEAPON"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "ability": {
+        "DoTEffects": [
+            {
+                "chance": 120.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "ATTACK_POOL",
+                "potency": 50.0,
+                "primaryPercent": 0.0,
+                "secondaryPercent": "}",
+                "stateDefenseModifiers": [
+                    "resistance_bleeding",
+                    "bleed_resist"
+                ],
+                "strength": 100.0,
+                "type": "BLEEDING"
+            }
+        ],
+        "animType": "GENERATE_INTENSITY",
+        "animation": "creature_attack_special_2",
+        "areaAction": "true",
+        "areaRange": 25.0,
+        "combatSpam": "attack",
+        "name": "creatureareableeding",
+        "stateEffects": []
+    }
+}

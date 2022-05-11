@@ -1,0 +1,39 @@
+{
+    "ability": {
+        "DoTEffects": [],
+        "accuracyBonus": 50.0,
+        "actionCostMultiplier": 0.0,
+        "animation": "saberthrow_posture_change",
+        "combatSpam": "saberthrow3",
+        "coneAction": "true",
+        "coneAngle": 30.0,
+        "damageMultiplier": 2.0,
+        "forceCostMultiplier": 2.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "saberthrow3",
+        "poolsToDamage": "RANDOM_ATTRIBUTE",
+        "range": 32.0,
+        "speedMultiplier": 4.5,
+        "stateEffects": [
+            {
+                "defenderExlusionTimers": [
+                    "knockdownRecovery",
+                    "lastKnockdown"
+                ],
+                "defenderJediStateDefenseModifiers": [
+                    ""
+                ],
+                "defenderStateDefenseModifiers": [
+                    "knockdown_defense"
+                ],
+                "effectType": "KNOCKDOWN_EFFECT",
+                "stateChance": 100.0,
+                "stateLength": 0.0,
+                "stateStrength": 0.0
+            }
+        ],
+        "visMod": 25.0,
+        "weaponType": "JEDIWEAPON"
+    }
+}

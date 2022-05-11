@@ -1,0 +1,46 @@
+{
+    "ability": {
+        "--frsDarkMaxDamageModifier": 4.0,
+        "--frsDarkMinDamageModifier": 1.0,
+        "--frsLightMaxDamageModifier": 4.0,
+        "--frsLightMinDamageModifier": 1.0,
+        "DoTEffects": [
+            {
+                "chance": 20.0,
+                "damageOfHit": "true",
+                "duration": -1.0,
+                "pool": "HEALTH",
+                "potency": 25.0,
+                "primaryPercent": 25.0,
+                "secondaryPercent": 1.0,
+                "stateDefenseModifiers": [
+                    "",
+                    ""
+                ],
+                "strength": 100.0,
+                "type": "FORCECHOKE"
+            }
+        ],
+        "accuracyBonus": 50.0,
+        "animType": "GENERATE_INTENSITY",
+        "animation": "force_choke_1_particle_level_1",
+        "combatSpam": "forcechoke",
+        "damageType": "KINETIC_DAMAGE",
+        "darkAlignForceCostModifier": 0.0,
+        "darkAlignMaxDamageMod": -1.25,
+        "darkAlignMinDamageMod": -1.25,
+        "forceAttack": "true",
+        "forceCost": 1250.0,
+        "lightAlignForceCostModifier": 1.25,
+        "lightAlignMaxDamageMod": -0.5,
+        "lightAlignMinDamageMod": -0.5,
+        "maxDamage": 4000.0,
+        "minDamage": 3000.0,
+        "name": "forcechoke",
+        "poolsToDamage": "HEALTH_ATTRIBUTE",
+        "range": 32.0,
+        "speed": 4.0,
+        "stateEffects": [],
+        "visMod": 0.0
+    }
+}

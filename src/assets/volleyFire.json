@@ -1,0 +1,17 @@
+{
+    "ability": {
+        "--actionCRC": "action.hashCode()",
+        "DoTEffects": [],
+        "accuracyBonus": 20.0,
+        "action": "volleyfire",
+        "actionCostMultiplier": 0.0,
+        "combatSpam": "volley",
+        "damageMultiplier": 0.5,
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "volleyfire",
+        "range": -1.0,
+        "speedMultiplier": 0.5,
+        "stateEffects": []
+    }
+}
