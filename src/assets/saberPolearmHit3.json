@@ -1,38 +1,36 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 50.0,
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_4b",
-        "combatSpam": "saberpolearmhit3",
-        "damageMultiplier": 2.5,
-        "forceCostMultiplier": 2.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "saberpolearmhit3",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 2.5,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "stun_defense"
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 75.0,
-                "stateLength": 90.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "visMod": 25.0,
-        "weaponType": "JEDIWEAPON"
-    }
+    "accuracyBonus": 50.0,
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_4b",
+    "combatSpam": "saberpolearmhit3",
+    "damageMultiplier": 2.5,
+    "dotEffects": [],
+    "forceCostMultiplier": 2.0,
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "saberpolearmhit3",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 2.5,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "stun_defense"
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 75.0,
+            "stateLength": 90.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "visMod": 25.0,
+    "weaponType": "JEDIWEAPON"
 }

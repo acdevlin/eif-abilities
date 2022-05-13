@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "npcconversationselect",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "npcconversationselect",
+    "stateEffects": []
 }

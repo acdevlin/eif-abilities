@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "cuiconsentresponse",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "cuiconsentresponse",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "opencontainer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "opencontainer",
+    "stateEffects": []
 }

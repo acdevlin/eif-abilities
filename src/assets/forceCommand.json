@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "forcecommand",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "forcecommand",
+    "stateEffects": []
 }

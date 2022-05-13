@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setmaximumspawntime",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setmaximumspawntime",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setplayerappearance",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setplayerappearance",
+    "stateEffects": []
 }

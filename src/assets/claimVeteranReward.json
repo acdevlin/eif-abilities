@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "claimveteranreward",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "claimveteranreward",
+    "stateEffects": []
 }

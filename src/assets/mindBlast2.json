@@ -1,72 +1,70 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracySkillMod": "mindblast_accuracy;",
-        "animType": "GENERATE_INTENSITY",
-        "animation": "force_mind_blast_1_arc_particle_level_1",
-        "combatSpam": "mindblast2",
-        "coneAction": "true",
-        "coneAngle": 40.0,
-        "damageType": "LIGHTSABER_DAMAGE",
-        "forceAttack": "true",
-        "forceCost": 160.0,
-        "frsDarkMaxDamageModifier": 3.0,
-        "frsDarkMinDamageModifier": 2.0,
-        "frsLightMaxDamageModifier": 3.0,
-        "frsLightMinDamageModifier": 2.0,
-        "maxDamage": 500.0,
-        "minDamage": 250.0,
-        "name": "mindblast2",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": 32.0,
-        "speed": 4.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense"
-                ],
-                "defenderStateDefenseModifiers": [
-                    ""
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 55.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            },
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense"
-                ],
-                "defenderStateDefenseModifiers": [
-                    ""
-                ],
-                "effectType": "BLIND_EFFECT",
-                "stateChance": 55.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            },
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense"
-                ],
-                "defenderStateDefenseModifiers": [
-                    ""
-                ],
-                "effectType": "DIZZY_EFFECT",
-                "stateChance": 55.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "visMod": 25.0
-    }
+    "accuracySkillMod": "mindblast_accuracy;",
+    "animType": "GENERATE_INTENSITY",
+    "animation": "force_mind_blast_1_arc_particle_level_1",
+    "combatSpam": "mindblast2",
+    "coneAction": "true",
+    "coneAngle": 40.0,
+    "damageType": "LIGHTSABER_DAMAGE",
+    "dotEffects": [],
+    "forceAttack": "true",
+    "forceCost": 160.0,
+    "frsDarkMaxDamageModifier": 3.0,
+    "frsDarkMinDamageModifier": 2.0,
+    "frsLightMaxDamageModifier": 3.0,
+    "frsLightMinDamageModifier": 2.0,
+    "maxDamage": 500.0,
+    "minDamage": 250.0,
+    "name": "mindblast2",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": 32.0,
+    "speed": 4.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense"
+            ],
+            "defenderStateDefenseModifiers": [
+                ""
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 55.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        },
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense"
+            ],
+            "defenderStateDefenseModifiers": [
+                ""
+            ],
+            "effectType": "BLIND_EFFECT",
+            "stateChance": 55.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        },
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense"
+            ],
+            "defenderStateDefenseModifiers": [
+                ""
+            ],
+            "effectType": "DIZZY_EFFECT",
+            "stateChance": 55.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "visMod": 25.0
 }

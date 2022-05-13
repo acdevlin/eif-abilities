@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "logout",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "logout",
+    "stateEffects": []
 }

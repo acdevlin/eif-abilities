@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "social",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "social",
+    "stateEffects": []
 }

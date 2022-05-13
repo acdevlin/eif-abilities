@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "csappendcomment",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "csappendcomment",
+    "stateEffects": []
 }

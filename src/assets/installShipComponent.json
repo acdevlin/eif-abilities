@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "installshipcomponent",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "installshipcomponent",
+    "stateEffects": []
 }

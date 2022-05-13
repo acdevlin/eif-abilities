@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "requestmanfschematicslots",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "requestmanfschematicslots",
+    "stateEffects": []
 }

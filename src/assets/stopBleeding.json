@@ -1,12 +1,10 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "allowedTarget": "FORCE_HEAL_TARGET_SELF+FORCE_HEAL_TARGET_OTHER",
-        "defaultTime": 2.0,
-        "forceCost": 50.0,
-        "healBleedingCost": 25.0,
-        "name": "stopbleeding",
-        "range": 32.0,
-        "stateEffects": []
-    }
+    "allowedTarget": "FORCE_HEAL_TARGET_SELF+FORCE_HEAL_TARGET_OTHER",
+    "defaultTime": 2.0,
+    "dotEffects": [],
+    "forceCost": 50.0,
+    "healBleedingCost": 25.0,
+    "name": "stopbleeding",
+    "range": 32.0,
+    "stateEffects": []
 }

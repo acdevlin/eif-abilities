@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "overrideactivemonths",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "overrideactivemonths",
+    "stateEffects": []
 }

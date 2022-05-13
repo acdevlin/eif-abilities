@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "startband",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "startband",
+    "stateEffects": []
 }

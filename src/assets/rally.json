@@ -1,9 +1,7 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "action": "rally",
-        "combatSpam": "rally",
-        "name": "rally",
-        "stateEffects": []
-    }
+    "action": "rally",
+    "combatSpam": "rally",
+    "dotEffects": [],
+    "name": "rally",
+    "stateEffects": []
 }

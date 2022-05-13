@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "powerboost",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "powerboost",
+    "stateEffects": []
 }

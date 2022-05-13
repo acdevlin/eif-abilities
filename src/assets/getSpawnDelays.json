@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "getspawndelays",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "getspawndelays",
+    "stateEffects": []
 }

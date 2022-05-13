@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "segoggles",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "segoggles",
+    "stateEffects": []
 }

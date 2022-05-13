@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "resetjedi",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "resetjedi",
+    "stateEffects": []
 }

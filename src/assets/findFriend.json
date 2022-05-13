@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "findfriend",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "findfriend",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setprivacy",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setprivacy",
+    "stateEffects": []
 }

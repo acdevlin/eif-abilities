@@ -1,10 +1,8 @@
 {
-    "ability": {
-        "--actionCRC": "action.hashCode()",
-        "DoTEffects": [],
-        "action": "steadyaim",
-        "combatSpam": "steadyaim_buff",
-        "name": "steadyaim",
-        "stateEffects": []
-    }
+    "--actionCRC": "action.hashCode()",
+    "action": "steadyaim",
+    "combatSpam": "steadyaim_buff",
+    "dotEffects": [],
+    "name": "steadyaim",
+    "stateEffects": []
 }

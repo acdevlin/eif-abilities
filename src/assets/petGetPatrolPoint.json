@@ -1,8 +1,6 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "defaultTime": 0.25,
-        "name": "petgetpatrolpoint",
-        "stateEffects": []
-    }
+    "defaultTime": 0.25,
+    "dotEffects": [],
+    "name": "petgetpatrolpoint",
+    "stateEffects": []
 }

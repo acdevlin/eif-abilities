@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "ventriloquism",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "ventriloquism",
+    "stateEffects": []
 }

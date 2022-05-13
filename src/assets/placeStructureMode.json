@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "placestructuremode",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "placestructuremode",
+    "stateEffects": []
 }

@@ -1,18 +1,16 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracySkillMod": "",
-        "animation": "mind_trick_1",
-        "coneAction": "false",
-        "coneAngle": 0.0,
-        "damageMultiplier": 0.0,
-        "forceAttack": "true",
-        "forceCost": 1500.0,
-        "name": "animalcalm",
-        "poolsToDamage": "NO_ATTRIBUTE",
-        "range": 32.0,
-        "speed": 4.0,
-        "stateEffects": [],
-        "visMod": 25.0
-    }
+    "accuracySkillMod": "",
+    "animation": "mind_trick_1",
+    "coneAction": "false",
+    "coneAngle": 0.0,
+    "damageMultiplier": 0.0,
+    "dotEffects": [],
+    "forceAttack": "true",
+    "forceCost": 1500.0,
+    "name": "animalcalm",
+    "poolsToDamage": "NO_ATTRIBUTE",
+    "range": 32.0,
+    "speed": 4.0,
+    "stateEffects": [],
+    "visMod": 25.0
 }

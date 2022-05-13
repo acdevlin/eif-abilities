@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "newbierequeststartinglocations",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "newbierequeststartinglocations",
+    "stateEffects": []
 }

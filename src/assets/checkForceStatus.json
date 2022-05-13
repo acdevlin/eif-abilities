@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "checkforcestatus",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "checkforcestatus",
+    "stateEffects": []
 }

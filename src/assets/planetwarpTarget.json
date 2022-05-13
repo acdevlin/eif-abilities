@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "planetwarptarget",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "planetwarptarget",
+    "stateEffects": []
 }

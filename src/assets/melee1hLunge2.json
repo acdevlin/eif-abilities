@@ -1,34 +1,32 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 25.0,
-        "actionCostMultiplier": 30.0,
-        "animation": "knockdown_1hmelee_1",
-        "combatSpam": "lungestab",
-        "damageMultiplier": 0.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "melee1hlunge2",
-        "range": 20.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "knockdownRecovery",
-                    "lastKnockdown"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "knockdown_defense"
-                ],
-                "effectType": "KNOCKDOWN_EFFECT",
-                "stateChance": 115.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "ONEHANDMELEEWEAPON"
-    }
+    "accuracyBonus": 25.0,
+    "actionCostMultiplier": 30.0,
+    "animation": "knockdown_1hmelee_1",
+    "combatSpam": "lungestab",
+    "damageMultiplier": 0.5,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "melee1hlunge2",
+    "range": 20.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "knockdownRecovery",
+                "lastKnockdown"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "knockdown_defense"
+            ],
+            "effectType": "KNOCKDOWN_EFFECT",
+            "stateChance": 115.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "ONEHANDMELEEWEAPON"
 }

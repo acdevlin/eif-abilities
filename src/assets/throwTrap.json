@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "throwtrap",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "throwtrap",
+    "stateEffects": []
 }

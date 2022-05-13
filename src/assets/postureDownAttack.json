@@ -1,26 +1,24 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "animType": "GENERATE_INTENSITY",
-        "animation": "creature_attack_special_1",
-        "combatSpam": "attack",
-        "name": "posturedownattack",
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "postureDownRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "posture_change_down_defense"
-                ],
-                "effectType": "POSTUREDOWN_EFFECT",
-                "stateChance": 85.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "animType": "GENERATE_INTENSITY",
+    "animation": "creature_attack_special_1",
+    "combatSpam": "attack",
+    "dotEffects": [],
+    "name": "posturedownattack",
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "postureDownRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "posture_change_down_defense"
+            ],
+            "effectType": "POSTUREDOWN_EFFECT",
+            "stateChance": 85.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

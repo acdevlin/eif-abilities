@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "feigndeath",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "feigndeath",
+    "stateEffects": []
 }

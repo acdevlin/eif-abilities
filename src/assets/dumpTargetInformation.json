@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "dumptargetinformation",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "dumptargetinformation",
+    "stateEffects": []
 }

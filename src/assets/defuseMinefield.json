@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "defuseminefield",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "defuseminefield",
+    "stateEffects": []
 }

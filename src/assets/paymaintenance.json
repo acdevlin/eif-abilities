@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "paymaintenance",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "paymaintenance",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "unconsent",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "unconsent",
+    "stateEffects": []
 }

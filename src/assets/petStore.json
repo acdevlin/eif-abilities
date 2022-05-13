@@ -1,8 +1,6 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "defaultTime": 0.25,
-        "name": "petstore",
-        "stateEffects": []
-    }
+    "defaultTime": 0.25,
+    "dotEffects": [],
+    "name": "petstore",
+    "stateEffects": []
 }

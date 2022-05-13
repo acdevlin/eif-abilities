@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "lag",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "lag",
+    "stateEffects": []
 }

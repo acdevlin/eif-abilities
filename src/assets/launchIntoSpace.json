@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "launchintospace",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "launchintospace",
+    "stateEffects": []
 }

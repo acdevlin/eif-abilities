@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "coupdegrace",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "coupdegrace",
+    "stateEffects": []
 }

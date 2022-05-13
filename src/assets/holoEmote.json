@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "holoemote",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "holoemote",
+    "stateEffects": []
 }

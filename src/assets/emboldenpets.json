@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "emboldenpets",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "emboldenpets",
+    "stateEffects": []
 }

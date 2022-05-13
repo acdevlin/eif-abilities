@@ -1,24 +1,22 @@
 {
-    "ability": {
-        "DoTEffects": [
-            {
-                "chance": 405.0,
-                "damageOfHit": "true",
-                "duration": 0.0,
-                "pool": "ATTACK_POOL",
-                "potency": 80.0,
-                "primaryPercent": 45.0,
-                "secondaryPercent": 0.0,
-                "stateDefenseModifiers": [
-                    "resistance_disease",
-                    "poison_disease_resist"
-                ],
-                "strength": 60.0,
-                "type": "DISEASED"
-            }
-        ],
-        "combatSpam": "attack",
-        "name": "strongdisease",
-        "stateEffects": []
-    }
+    "combatSpam": "attack",
+    "dotEffects": [
+        {
+            "chance": 405.0,
+            "damageOfHit": "true",
+            "duration": 0.0,
+            "pool": "ATTACK_POOL",
+            "potency": 80.0,
+            "primaryPercent": 45.0,
+            "secondaryPercent": 0.0,
+            "stateDefenseModifiers": [
+                "resistance_disease",
+                "poison_disease_resist"
+            ],
+            "strength": 60.0,
+            "type": "DISEASED"
+        }
+    ],
+    "name": "strongdisease",
+    "stateEffects": []
 }

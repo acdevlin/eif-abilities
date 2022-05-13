@@ -1,14 +1,12 @@
 {
-    "ability": {
-        "--animationCRC": "hashCode()",
-        "DoTEffects": [],
-        "buffClass": "SINGLE_USE_BUFF",
-        "clientEffect": "clienteffect/pl_force_absorb_self.cef",
-        "duration": 60.0,
-        "forceCost": 100.0,
-        "frsDarkExtraForceCostModifier": 0.002,
-        "frsLightExtraForceCostModifier": 0.002,
-        "name": "forceabsorb2",
-        "stateEffects": []
-    }
+    "--animationCRC": "hashCode()",
+    "buffClass": "SINGLE_USE_BUFF",
+    "clientEffect": "clienteffect/pl_force_absorb_self.cef",
+    "dotEffects": [],
+    "duration": 60.0,
+    "forceCost": 100.0,
+    "frsDarkExtraForceCostModifier": 0.002,
+    "frsLightExtraForceCostModifier": 0.002,
+    "name": "forceabsorb2",
+    "stateEffects": []
 }

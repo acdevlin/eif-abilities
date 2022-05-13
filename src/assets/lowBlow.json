@@ -1,33 +1,31 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_5_single",
-        "combatSpam": "lowblow",
-        "damageMultiplier": 2.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 45.0,
-        "name": "lowblow",
-        "range": -1.0,
-        "speedMultiplier": 2.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "knockdownRecovery",
-                    "lastKnockdown"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "knockdown_defense"
-                ],
-                "effectType": "KNOCKDOWN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_5_single",
+    "combatSpam": "lowblow",
+    "damageMultiplier": 2.5,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 45.0,
+    "name": "lowblow",
+    "range": -1.0,
+    "speedMultiplier": 2.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "knockdownRecovery",
+                "lastKnockdown"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "knockdown_defense"
+            ],
+            "effectType": "KNOCKDOWN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

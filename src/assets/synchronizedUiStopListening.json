@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "synchronizeduistoplistening",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "synchronizeduistoplistening",
+    "stateEffects": []
 }

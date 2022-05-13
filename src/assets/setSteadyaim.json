@@ -1,9 +1,7 @@
 {
-    "ability": {
-        "--actionCRC": "action.hashCode()",
-        "DoTEffects": [],
-        "action": "steadyaim",
-        "name": "setsteadyaim",
-        "stateEffects": []
-    }
+    "--actionCRC": "action.hashCode()",
+    "action": "steadyaim",
+    "dotEffects": [],
+    "name": "setsteadyaim",
+    "stateEffects": []
 }

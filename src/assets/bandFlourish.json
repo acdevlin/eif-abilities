@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "bandflourish",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "bandflourish",
+    "stateEffects": []
 }

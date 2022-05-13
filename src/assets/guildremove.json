@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "guildremove",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "guildremove",
+    "stateEffects": []
 }

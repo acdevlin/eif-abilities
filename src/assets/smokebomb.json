@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "smokebomb",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "smokebomb",
+    "stateEffects": []
 }

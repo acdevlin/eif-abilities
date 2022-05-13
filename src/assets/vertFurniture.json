@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "vertfurniture",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "vertfurniture",
+    "stateEffects": []
 }

@@ -1,49 +1,47 @@
 {
-    "ability": {
-        "DoTEffects": [
-            {
-                "chance": 30.0,
-                "damageOfHit": "true",
-                "duration": 0.0,
-                "pool": "ACTION",
-                "potency": 30.0,
-                "primaryPercent": 50.0,
-                "secondaryPercent": 10.0,
-                "stateDefenseModifiers": [
-                    "resistance_fire",
-                    "fire_resist"
-                ],
-                "strength": 100.0,
-                "type": "ONFIRE"
-            }
-        ],
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_3_single",
-        "combatSpam": "knockdownfire",
-        "damageMultiplier": 1.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 55.0,
-        "name": "knockdownfire",
-        "range": -1.0,
-        "speedMultiplier": 0.5,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "knockdownRecovery",
-                    "lastKnockdown"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "knockdown_defense"
-                ],
-                "effectType": "KNOCKDOWN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_3_single",
+    "combatSpam": "knockdownfire",
+    "damageMultiplier": 1.0,
+    "dotEffects": [
+        {
+            "chance": 30.0,
+            "damageOfHit": "true",
+            "duration": 0.0,
+            "pool": "ACTION",
+            "potency": 30.0,
+            "primaryPercent": 50.0,
+            "secondaryPercent": 10.0,
+            "stateDefenseModifiers": [
+                "resistance_fire",
+                "fire_resist"
+            ],
+            "strength": 100.0,
+            "type": "ONFIRE"
+        }
+    ],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 55.0,
+    "name": "knockdownfire",
+    "range": -1.0,
+    "speedMultiplier": 0.5,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "knockdownRecovery",
+                "lastKnockdown"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "knockdown_defense"
+            ],
+            "effectType": "KNOCKDOWN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

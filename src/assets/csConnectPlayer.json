@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "csconnectplayer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "csconnectplayer",
+    "stateEffects": []
 }

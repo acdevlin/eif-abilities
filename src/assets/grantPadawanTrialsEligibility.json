@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "grantpadawantrialseligibility",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "grantpadawantrialseligibility",
+    "stateEffects": []
 }

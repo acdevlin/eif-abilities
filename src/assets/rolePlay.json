@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "roleplay",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "roleplay",
+    "stateEffects": []
 }

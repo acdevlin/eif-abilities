@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setlogintitle",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setlogintitle",
+    "stateEffects": []
 }

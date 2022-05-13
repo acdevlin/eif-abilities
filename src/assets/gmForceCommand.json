@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "gmforcecommand",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "gmforcecommand",
+    "stateEffects": []
 }

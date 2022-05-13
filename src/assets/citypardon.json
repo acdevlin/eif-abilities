@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "citypardon",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "citypardon",
+    "stateEffects": []
 }

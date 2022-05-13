@@ -1,34 +1,32 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 5.0,
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_1_special_single",
-        "combatSpam": "shootfirst",
-        "damageMultiplier": 4.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 10.0,
-        "name": "shootfirst",
-        "range": -1.0,
-        "speedMultiplier": 0.5,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "stun_defense"
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 60.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "accuracyBonus": 5.0,
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_1_special_single",
+    "combatSpam": "shootfirst",
+    "damageMultiplier": 4.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 10.0,
+    "name": "shootfirst",
+    "range": -1.0,
+    "speedMultiplier": 0.5,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "stun_defense"
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 60.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

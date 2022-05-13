@@ -1,9 +1,7 @@
 {
-    "ability": {
-        "--actionCRC": "action.hashCode()",
-        "DoTEffects": [],
-        "action": "formup",
-        "name": "setformup",
-        "stateEffects": []
-    }
+    "--actionCRC": "action.hashCode()",
+    "action": "formup",
+    "dotEffects": [],
+    "name": "setformup",
+    "stateEffects": []
 }

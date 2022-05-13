@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "ressampleloop",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "ressampleloop",
+    "stateEffects": []
 }

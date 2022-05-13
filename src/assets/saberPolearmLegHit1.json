@@ -1,21 +1,19 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 50.0,
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_3a",
-        "combatSpam": "saberpolearmleghit1",
-        "damageMultiplier": 1.5,
-        "forceCostMultiplier": 1.25,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "saberpolearmleghit1",
-        "poolsToDamage": "ACTION_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.5,
-        "stateEffects": [],
-        "visMod": 25.0,
-        "weaponType": "JEDIWEAPON"
-    }
+    "accuracyBonus": 50.0,
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_3a",
+    "combatSpam": "saberpolearmleghit1",
+    "damageMultiplier": 1.5,
+    "dotEffects": [],
+    "forceCostMultiplier": 1.25,
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "saberpolearmleghit1",
+    "poolsToDamage": "ACTION_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.5,
+    "stateEffects": [],
+    "visMod": 25.0,
+    "weaponType": "JEDIWEAPON"
 }

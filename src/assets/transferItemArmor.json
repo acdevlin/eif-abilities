@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "transferitemarmor",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "transferitemarmor",
+    "stateEffects": []
 }

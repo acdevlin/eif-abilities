@@ -1,36 +1,34 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 15.0,
-        "actionCostMultiplier": 15.0,
-        "animation": "lower_posture_2hmelee_2",
-        "combatSpam": "descendingstrike",
-        "coneAction": "true",
-        "coneAngle": 270.0,
-        "damageMultiplier": 2.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "melee2harea1",
-        "range": 8.0,
-        "speedMultiplier": 1.5,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "intimidate_defense"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "effectType": "INTIMIDATE_EFFECT",
-                "stateChance": 55.0,
-                "stateLength": 30.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "TWOHANDMELEEWEAPON"
-    }
+    "accuracyBonus": 15.0,
+    "actionCostMultiplier": 15.0,
+    "animation": "lower_posture_2hmelee_2",
+    "combatSpam": "descendingstrike",
+    "coneAction": "true",
+    "coneAngle": 270.0,
+    "damageMultiplier": 2.5,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "melee2harea1",
+    "range": 8.0,
+    "speedMultiplier": 1.5,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "intimidate_defense"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "effectType": "INTIMIDATE_EFFECT",
+            "stateChance": 55.0,
+            "stateLength": 30.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "TWOHANDMELEEWEAPON"
 }

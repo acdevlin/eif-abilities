@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setspokenlanguage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setspokenlanguage",
+    "stateEffects": []
 }

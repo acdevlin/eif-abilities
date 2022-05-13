@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "restartcraftingsession",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "restartcraftingsession",
+    "stateEffects": []
 }

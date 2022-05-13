@@ -1,55 +1,103 @@
 <div class="container">
-  <h2>Abilities</h2>
-  <table class="table">
-    <thead>
-        <tr>
-          <th>Name</th>
-          <th>Weapon Type</th>
-          <th>Damage Modifier</th>
-          <th>Speed Modifier</th>
-          <th>Accuracy</th>
-          <th>Target HAM Pool</th>
-          <th>HAM Costs</th>
-          <th>DoT Effects</th>
-          <th>State Effects</th>
-        </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let item of JsonData">
-        <td>{{ item.ability.name }}</td>
-        <td>{{ item.ability.weaponType }}</td>
-        <td>{{ item.ability.damageMultiplier }}</td>
-        <td>{{ item.ability.speedMultiplier }}</td>
-        <td>{{ item.ability.accuracyBonus }}</td>
-        <td>{{ item.ability.poolsToDamage}}</td>
-        <td>
-          <ul>
-            <li>Health: {{ item.ability.healthCostMultiplier }}</li>
-            <li>Action: {{ item.ability.actionCostMultiplier }} </li>
-            <li>Mind: {{ item.ability.mindCostMultiplier }}</li>
-          </ul>
-        </td>
-        <td>
-          <ul *ngFor="let effect of item.ability.DoTEffects">
-            {{effect.type}}
-            <li>Target Pool: {{effect.pool}}</li>
-            <li>Chance: {{effect.chance}}%</li>
-            <li>Potency: {{effect.potency}}%</li>
-            <li>Strength: {{effect.strength}}%</li>
-            <li>Primary Percent: {{effect.primaryPercent}}%</li>
-            <li>Secondary Percent: {{effect.secondaryPercent}}%</li>
-          </ul>
-        </td>
-        <td>
-          <ul *ngFor="let effect of item.ability.stateEffects">
-            {{effect.effectType}}
-            <li>Chance: {{effect.stateChance}}%</li>
-            <li>Length: {{effect.stateLength}}%</li>
-            <li>Strength: {{effect.stateStrength}}%</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
+  <mat-toolbar color="primary">
+    <span>Abilities</span>
+  </mat-toolbar>
+
+  <table mat-table class="mat-elevation-z8" [dataSource]="dataSource">
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let ability"> <h3>{{ability.name}}</h3> </td>
+    </ng-container>
+
+    <!-- Weapon Type Column -->
+    <ng-container matColumnDef="weaponType">
+      <th mat-header-cell *matHeaderCellDef> Weapon Type </th>
+      <td mat-cell *matCellDef="let ability"> {{ability.weaponType}} </td>
+    </ng-container>
+
+    <!-- Damage Multiplier Column -->
+    <ng-container matColumnDef="damageMultiplier">
+      <th mat-header-cell *matHeaderCellDef> Damage Mod </th>
+      <td mat-cell *matCellDef="let ability"> {{ability.damageMultiplier | number:'1.1-2'}} </td>
+    </ng-container>
+
+    <!-- Speed Multiplier Column -->
+    <ng-container matColumnDef="speedMultiplier">
+      <th mat-header-cell *matHeaderCellDef> Speed Mod </th>
+      <td mat-cell *matCellDef="let ability"> {{ability.speedMultiplier | number:'1.1-2'}} </td>
+    </ng-container>
+
+    <!-- Accuracy Bonus Column -->
+    <ng-container matColumnDef="accuracyBonus">
+      <th mat-header-cell *matHeaderCellDef> Accuracy Bonus </th>
+      <td mat-cell *matCellDef="let ability"> {{ability.accuracyBonus}} </td>
+    </ng-container>
+
+    <!-- HAM Cost Column -->
+    <ng-container matColumnDef="hamCosts">
+      <th mat-header-cell *matHeaderCellDef> HAM Costs </th>
+      <td mat-cell *matCellDef="let ability">
+        <mat-list role="list">
+          <mat-list-item role="listitem">Health: {{ability.healthCostMultiplier}}</mat-list-item>
+          <mat-list-item role="listitem">Action: {{ability.actionCostMultiplier}}</mat-list-item>
+          <mat-list-item role="listitem">Mind: {{ability.mindCostMultiplier}}</mat-list-item>
+        </mat-list>
+    </ng-container>
+
+    <!-- Target HAM Pool Column -->
+    <ng-container matColumnDef="poolsToDamage">
+      <th mat-header-cell *matHeaderCellDef> Target HAM Pool </th>
+      <td mat-cell *matCellDef="let ability"> 
+        <mat-card 
+        class="mat-elevation-z2" 
+        [ngStyle]="{'background-color':getTargetPoolColor(ability.poolsToDamage)}"
+        *ngIf="ability.poolsToDamage">
+          <b>{{ability.poolsToDamage}}</b>
+        </mat-card>
+        
+
+      </td>
+    </ng-container>
+
+    <!-- DoT Effects Column -->
+    <ng-container matColumnDef="dotEffects">
+      <th mat-header-cell *matHeaderCellDef> DoT Effects </th>
+      <td mat-cell *matCellDef="let ability">
+        <mat-list role="list" *ngFor="let effect of ability.dotEffects">
+          <mat-card class="mat-elevation-z2" [ngStyle]="{'background-color':getDotColor(effect.pool)}">
+            <mat-card-title>{{effect.type}}</mat-card-title>
+            <mat-card-content>
+              <mat-list-item role="listitem">Target Pool: {{effect.pool}}</mat-list-item>
+              <mat-list-item role="listitem">Chance: {{effect.chance}}%</mat-list-item>
+              <mat-list-item role="listitem">Potency: {{effect.potency}}%</mat-list-item>
+              <mat-list-item role="listitem">Strength: {{effect.strength}}%</mat-list-item>
+              <mat-list-item role="listitem">Primary Chance: {{effect.primaryPercent}}%</mat-list-item>
+              <mat-list-item role="listitem">Secondary Chance: {{effect.secondaryPercent}}%</mat-list-item>
+            </mat-card-content>
+          </mat-card>
+        </mat-list>
+    </ng-container>
+
+    <!-- State Effects Column -->
+    <ng-container matColumnDef="stateEffects">
+      <th mat-header-cell *matHeaderCellDef> State Effects </th>
+      <td mat-cell *matCellDef="let ability">
+        <mat-list role="list" *ngFor="let effect of ability.stateEffects">
+          <mat-card class="mat-elevation-z2" [ngStyle]="{'background-color':getStateColor(effect.effectType)}">
+            <mat-card-title>{{effect.effectType}}</mat-card-title>
+            <mat-card-content>
+              <mat-list-item role="listitem">Chance: {{effect.stateChance}}%</mat-list-item>
+              <mat-list-item role="listitem">Length: {{effect.stateLength}}%</mat-list-item>
+              <mat-list-item role="listitem">Strength: {{effect.stateStrength}}%</mat-list-item>
+            </mat-card-content>
+          </mat-card>
+        </mat-list>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; let even = even; columns: displayedColumns;" [ngClass]="{gray: even}"></tr>
   </table>
 
 </div>

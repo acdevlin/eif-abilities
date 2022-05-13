@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "uninvite",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "uninvite",
+    "stateEffects": []
 }

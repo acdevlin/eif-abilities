@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "restartconversion",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "restartconversion",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "unassociatedroidcontroldevicewithship",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "unassociatedroidcontroldevicewithship",
+    "stateEffects": []
 }

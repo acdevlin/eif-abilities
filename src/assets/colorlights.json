@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "colorlights",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "colorlights",
+    "stateEffects": []
 }

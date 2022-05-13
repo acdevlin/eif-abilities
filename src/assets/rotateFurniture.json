@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "rotatefurniture",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "rotatefurniture",
+    "stateEffects": []
 }

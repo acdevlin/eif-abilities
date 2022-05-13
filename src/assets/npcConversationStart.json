@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "npcconversationstart",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "npcconversationstart",
+    "stateEffects": []
 }

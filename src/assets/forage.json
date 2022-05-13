@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "forage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "forage",
+    "stateEffects": []
 }

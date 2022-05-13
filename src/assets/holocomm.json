@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "holocomm",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "holocomm",
+    "stateEffects": []
 }

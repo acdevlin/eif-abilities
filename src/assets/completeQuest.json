@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "completequest",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "completequest",
+    "stateEffects": []
 }

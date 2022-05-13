@@ -1,20 +1,18 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "fire_lightning_rifle_single_2",
-        "combatSpam": "firelightningcone2",
-        "coneAction": "true",
-        "coneAngle": 60.0,
-        "damageMultiplier": 2.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 20.0,
-        "name": "firelightningcone2",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [],
-        "weaponType": "SPECIALHEAVYWEAPON"
-    }
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "fire_lightning_rifle_single_2",
+    "combatSpam": "firelightningcone2",
+    "coneAction": "true",
+    "coneAngle": 60.0,
+    "damageMultiplier": 2.5,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 20.0,
+    "name": "firelightningcone2",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [],
+    "weaponType": "SPECIALHEAVYWEAPON"
 }

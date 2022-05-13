@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "serversysgroup",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "serversysgroup",
+    "stateEffects": []
 }

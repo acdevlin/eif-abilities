@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "distract",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "distract",
+    "stateEffects": []
 }

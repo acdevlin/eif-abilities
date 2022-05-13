@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "regeneration",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "regeneration",
+    "stateEffects": []
 }

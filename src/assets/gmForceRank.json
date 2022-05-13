@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "gmforcerank",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "gmforcerank",
+    "stateEffects": []
 }

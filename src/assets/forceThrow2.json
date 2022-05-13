@@ -1,40 +1,38 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracySkillMod": "forcethrow_accuracy",
-        "animType": "GENERATE_INTENSITY",
-        "animation": "force_throw_1_particle_level_1",
-        "combatSpam": "forcethrow2",
-        "damageType": "KINETIC_DAMAGE",
-        "forceAttack": "true",
-        "forceCost": 56.0,
-        "frsDarkMaxDamageModifier": 6.0,
-        "frsDarkMinDamageModifier": 3.0,
-        "frsLightMaxDamageModifier": 6.0,
-        "frsLightMinDamageModifier": 3.0,
-        "maxDamage": 5000.0,
-        "minDamage": 1500.0,
-        "name": "forcethrow2",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": 64.0,
-        "speed": 4.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense"
-                ],
-                "defenderStateDefenseModifiers": [
-                    ""
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 65.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "visMod": 25.0
-    }
+    "accuracySkillMod": "forcethrow_accuracy",
+    "animType": "GENERATE_INTENSITY",
+    "animation": "force_throw_1_particle_level_1",
+    "combatSpam": "forcethrow2",
+    "damageType": "KINETIC_DAMAGE",
+    "dotEffects": [],
+    "forceAttack": "true",
+    "forceCost": 56.0,
+    "frsDarkMaxDamageModifier": 6.0,
+    "frsDarkMinDamageModifier": 3.0,
+    "frsLightMaxDamageModifier": 6.0,
+    "frsLightMinDamageModifier": 3.0,
+    "maxDamage": 5000.0,
+    "minDamage": 1500.0,
+    "name": "forcethrow2",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": 64.0,
+    "speed": 4.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense"
+            ],
+            "defenderStateDefenseModifiers": [
+                ""
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 65.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "visMod": 25.0
 }

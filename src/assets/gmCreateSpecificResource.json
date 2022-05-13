@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "gmcreatespecificresource",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "gmcreatespecificresource",
+    "stateEffects": []
 }

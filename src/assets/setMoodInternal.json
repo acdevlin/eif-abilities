@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setmoodinternal",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setmoodinternal",
+    "stateEffects": []
 }

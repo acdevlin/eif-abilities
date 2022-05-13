@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setperformancebufftarget",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setperformancebufftarget",
+    "stateEffects": []
 }

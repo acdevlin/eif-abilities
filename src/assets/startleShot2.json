@@ -1,36 +1,34 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 5.0,
-        "actionCostMultiplier": 50.0,
-        "animation": "fire_defender_posture_change_up",
-        "combatSpam": "startleshot",
-        "coneAction": "true",
-        "coneAngle": 60.0,
-        "damageMultiplier": 1.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "startleshot2",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "postureUpRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "posture_change_up_defense"
-                ],
-                "effectType": "POSTUREUP_EFFECT",
-                "stateChance": 120.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "RIFLEWEAPON"
-    }
+    "accuracyBonus": 5.0,
+    "actionCostMultiplier": 50.0,
+    "animation": "fire_defender_posture_change_up",
+    "combatSpam": "startleshot",
+    "coneAction": "true",
+    "coneAngle": 60.0,
+    "damageMultiplier": 1.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "startleshot2",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "postureUpRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "posture_change_up_defense"
+            ],
+            "effectType": "POSTUREUP_EFFECT",
+            "stateChance": 120.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "RIFLEWEAPON"
 }

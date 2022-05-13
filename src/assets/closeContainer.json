@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "closecontainer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "closecontainer",
+    "stateEffects": []
 }

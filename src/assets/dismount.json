@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "dismount",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "dismount",
+    "stateEffects": []
 }

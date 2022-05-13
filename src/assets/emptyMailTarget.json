@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "emptymailtarget",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "emptymailtarget",
+    "stateEffects": []
 }

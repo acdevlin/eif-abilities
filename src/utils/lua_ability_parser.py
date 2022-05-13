@@ -135,7 +135,7 @@ def lua_to_json(basepath, filename, filepath):
   # Iterate line-by-line to build JSON-able dict of remaining properties, ignoring
   # first line of parse-able file since that's the name of the command
   abilityDict = parse_noneffect_lines(splitLines[1:])
-  abilityDict['DoTEffects'] = dotEffects
+  abilityDict['dotEffects'] = dotEffects
   abilityDict['stateEffects'] = stateEffects
   # DEBUG dumps this specific ability to terminal
   '''
@@ -144,11 +144,10 @@ def lua_to_json(basepath, filename, filepath):
   print('='*70)
   '''
   # Write ability to JSON file in "assets" directory
-  outDict = {'ability': abilityDict}
   outfileName = '../assets/' + filename.split('.')[0] + '.json'
   outfilePath = str((basepath / outfileName).resolve())
   with open(f'{outfilePath}', 'w') as outfile:
-    outfile.write(json.dumps(outDict, sort_keys=True, indent=4))
+    outfile.write(json.dumps(abilityDict, sort_keys=True, indent=4))
     print(f"Written to {outfilePath}")
 
 

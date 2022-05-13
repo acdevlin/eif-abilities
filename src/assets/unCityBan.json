@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "uncityban",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "uncityban",
+    "stateEffects": []
 }

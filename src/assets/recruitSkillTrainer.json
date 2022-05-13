@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "recruitskilltrainer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "recruitskilltrainer",
+    "stateEffects": []
 }

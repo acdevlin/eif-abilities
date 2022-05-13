@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "factorycratesplit",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "factorycratesplit",
+    "stateEffects": []
 }

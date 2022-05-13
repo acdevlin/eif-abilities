@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "requestcoresample",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "requestcoresample",
+    "stateEffects": []
 }

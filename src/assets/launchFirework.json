@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "launchfirework",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "launchfirework",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "registerwithlocation",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "registerwithlocation",
+    "stateEffects": []
 }

@@ -1,8 +1,6 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "defaultTime": 2.0,
-        "name": "healenhance",
-        "stateEffects": []
-    }
+    "defaultTime": 2.0,
+    "dotEffects": [],
+    "name": "healenhance",
+    "stateEffects": []
 }

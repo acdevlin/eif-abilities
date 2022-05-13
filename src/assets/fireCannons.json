@@ -1,20 +1,18 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "droid_attack",
-        "combatSpam": "attack",
-        "damageMultiplier": 1.0,
-        "forceCostMultiplier": 0.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "firecannons",
-        "poolsToDamage": "HEALTH_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [],
-        "trails": "NOTRAIL",
-        "visMod": 25.0
-    }
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "droid_attack",
+    "combatSpam": "attack",
+    "damageMultiplier": 1.0,
+    "dotEffects": [],
+    "forceCostMultiplier": 0.0,
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "firecannons",
+    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [],
+    "trails": "NOTRAIL",
+    "visMod": 25.0
 }

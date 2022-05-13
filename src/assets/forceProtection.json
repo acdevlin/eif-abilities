@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "forceprotection",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "forceprotection",
+    "stateEffects": []
 }

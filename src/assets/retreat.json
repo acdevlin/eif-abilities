@@ -1,10 +1,8 @@
 {
-    "ability": {
-        "--actionCRC": "action.hashCode()",
-        "DoTEffects": [],
-        "action": "retreat",
-        "combatSpam": "retreat_buff",
-        "name": "retreat",
-        "stateEffects": []
-    }
+    "--actionCRC": "action.hashCode()",
+    "action": "retreat",
+    "combatSpam": "retreat_buff",
+    "dotEffects": [],
+    "name": "retreat",
+    "stateEffects": []
 }

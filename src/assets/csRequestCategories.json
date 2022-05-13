@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "csrequestcategories",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "csrequestcategories",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "activateclone",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "activateclone",
+    "stateEffects": []
 }

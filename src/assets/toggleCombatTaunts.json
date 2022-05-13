@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "togglecombattaunts",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "togglecombattaunts",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "maxcombatability",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "maxcombatability",
+    "stateEffects": []
 }

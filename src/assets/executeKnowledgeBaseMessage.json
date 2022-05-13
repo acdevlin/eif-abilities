@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "executeknowledgebasemessage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "executeknowledgebasemessage",
+    "stateEffects": []
 }

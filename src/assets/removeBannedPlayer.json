@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "removebannedplayer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "removebannedplayer",
+    "stateEffects": []
 }

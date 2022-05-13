@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "auctionaccept",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "auctionaccept",
+    "stateEffects": []
 }

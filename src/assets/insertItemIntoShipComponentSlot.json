@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "insertitemintoshipcomponentslot",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "insertitemintoshipcomponentslot",
+    "stateEffects": []
 }

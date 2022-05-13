@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "getaccountinfo",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "getaccountinfo",
+    "stateEffects": []
 }

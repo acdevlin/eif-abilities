@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "leavegroup",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "leavegroup",
+    "stateEffects": []
 }

@@ -1,13 +1,11 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "attributesToHeal": "MIND_ATTRIBUTE",
-        "defaultTime": 6.0,
-        "forceCost": 25.0,
-        "forceCostMultiplier": 0.05,
-        "healAmount": 1500.0,
-        "name": "healmindself2",
-        "range": 0.0,
-        "stateEffects": []
-    }
+    "attributesToHeal": "MIND_ATTRIBUTE",
+    "defaultTime": 6.0,
+    "dotEffects": [],
+    "forceCost": 25.0,
+    "forceCostMultiplier": 0.05,
+    "healAmount": 1500.0,
+    "name": "healmindself2",
+    "range": 0.0,
+    "stateEffects": []
 }

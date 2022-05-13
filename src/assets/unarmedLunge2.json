@@ -1,34 +1,32 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 15.0,
-        "actionCostMultiplier": 30.0,
-        "animation": "knockdown_unarmed_1",
-        "combatSpam": "lungeshiak",
-        "damageMultiplier": 0.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "unarmedlunge2",
-        "range": 20.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "knockdownRecovery",
-                    "lastKnockdown"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "knockdown_defense"
-                ],
-                "effectType": "KNOCKDOWN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "UNARMEDWEAPON"
-    }
+    "accuracyBonus": 15.0,
+    "actionCostMultiplier": 30.0,
+    "animation": "knockdown_unarmed_1",
+    "combatSpam": "lungeshiak",
+    "damageMultiplier": 0.5,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "unarmedlunge2",
+    "range": 20.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "knockdownRecovery",
+                "lastKnockdown"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "knockdown_defense"
+            ],
+            "effectType": "KNOCKDOWN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "UNARMEDWEAPON"
 }

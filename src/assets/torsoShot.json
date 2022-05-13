@@ -1,33 +1,31 @@
 {
-    "ability": {
-        "DoTEffects": [
-            {
-                "chance": 15.0,
-                "damageOfHit": "true",
-                "duration": 0.0,
-                "pool": "ATTACK_POOL",
-                "potency": 30.0,
-                "primaryPercent": 25.0,
-                "secondaryPercent": 10.0,
-                "stateDefenseModifiers": [
-                    "resistance_fire",
-                    "fire_resist"
-                ],
-                "strength": 75.0,
-                "type": "ONFIRE"
-            }
-        ],
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_3_special_single",
-        "combatSpam": "torsoshot",
-        "damageMultiplier": 4.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 40.0,
-        "name": "torsoshot",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.5,
-        "stateEffects": []
-    }
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_3_special_single",
+    "combatSpam": "torsoshot",
+    "damageMultiplier": 4.5,
+    "dotEffects": [
+        {
+            "chance": 15.0,
+            "damageOfHit": "true",
+            "duration": 0.0,
+            "pool": "ATTACK_POOL",
+            "potency": 30.0,
+            "primaryPercent": 25.0,
+            "secondaryPercent": 10.0,
+            "stateDefenseModifiers": [
+                "resistance_fire",
+                "fire_resist"
+            ],
+            "strength": 75.0,
+            "type": "ONFIRE"
+        }
+    ],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 40.0,
+    "name": "torsoshot",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.5,
+    "stateEffects": []
 }

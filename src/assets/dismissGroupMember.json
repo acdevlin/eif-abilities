@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "dismissgroupmember",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "dismissgroupmember",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "wipeitems",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "wipeitems",
+    "stateEffects": []
 }

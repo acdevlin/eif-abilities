@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "reviveplayer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "reviveplayer",
+    "stateEffects": []
 }

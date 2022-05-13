@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "resendloginmessagetoall",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "resendloginmessagetoall",
+    "stateEffects": []
 }

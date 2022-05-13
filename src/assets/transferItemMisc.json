@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "transferitemmisc",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "transferitemmisc",
+    "stateEffects": []
 }

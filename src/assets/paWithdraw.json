@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "pawithdraw",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "pawithdraw",
+    "stateEffects": []
 }

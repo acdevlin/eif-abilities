@@ -1,18 +1,16 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 15.0,
-        "actionCostMultiplier": 30.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_3_single",
-        "combatSpam": "pointblankshot",
-        "damageMultiplier": 2.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "pointblanksingle1",
-        "range": 12.0,
-        "speedMultiplier": 1.5,
-        "stateEffects": [],
-        "weaponType": "RANGEDWEAPON"
-    }
+    "accuracyBonus": 15.0,
+    "actionCostMultiplier": 30.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_3_single",
+    "combatSpam": "pointblankshot",
+    "damageMultiplier": 2.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "pointblanksingle1",
+    "range": 12.0,
+    "speedMultiplier": 1.5,
+    "stateEffects": [],
+    "weaponType": "RANGEDWEAPON"
 }

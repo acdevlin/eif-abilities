@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "harvestergetresourcedata",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "harvestergetresourcedata",
+    "stateEffects": []
 }

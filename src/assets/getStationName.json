@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "getstationname",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "getstationname",
+    "stateEffects": []
 }

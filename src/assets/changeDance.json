@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "changedance",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "changedance",
+    "stateEffects": []
 }

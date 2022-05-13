@@ -1,26 +1,24 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "animType": "GENERATE_INTENSITY",
-        "animation": "creature_attack_special_2",
-        "combatSpam": "attack",
-        "name": "postureupattack",
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "postureUpRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "posture_change_up_defense"
-                ],
-                "effectType": "POSTUREUP_EFFECT",
-                "stateChance": 85.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "animType": "GENERATE_INTENSITY",
+    "animation": "creature_attack_special_2",
+    "combatSpam": "attack",
+    "dotEffects": [],
+    "name": "postureupattack",
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "postureUpRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "posture_change_up_defense"
+            ],
+            "effectType": "POSTUREUP_EFFECT",
+            "stateChance": 85.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

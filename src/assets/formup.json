@@ -1,10 +1,8 @@
 {
-    "ability": {
-        "--actionCRC": "action.hashCode()",
-        "DoTEffects": [],
-        "action": "formup",
-        "combatSpam": "formup_buff",
-        "name": "formup",
-        "stateEffects": []
-    }
+    "--actionCRC": "action.hashCode()",
+    "action": "formup",
+    "combatSpam": "formup_buff",
+    "dotEffects": [],
+    "name": "formup",
+    "stateEffects": []
 }

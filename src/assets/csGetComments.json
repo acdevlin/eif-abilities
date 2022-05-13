@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "csgetcomments",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "csgetcomments",
+    "stateEffects": []
 }

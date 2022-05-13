@@ -1,19 +1,17 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 10.0,
-        "actionCostMultiplier": 15.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_3c",
-        "combatSpam": "legsmasher",
-        "damageMultiplier": 3.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "polearmleghit2",
-        "poolsToDamage": "HEALTH_ATTRIBUTE",
-        "range": 12.0,
-        "speedMultiplier": 1.75,
-        "stateEffects": [],
-        "weaponType": "POLEARMWEAPON"
-    }
+    "accuracyBonus": 10.0,
+    "actionCostMultiplier": 15.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_3c",
+    "combatSpam": "legsmasher",
+    "damageMultiplier": 3.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "polearmleghit2",
+    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "range": 12.0,
+    "speedMultiplier": 1.75,
+    "stateEffects": [],
+    "weaponType": "POLEARMWEAPON"
 }

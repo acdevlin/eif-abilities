@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "groupchat",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "groupchat",
+    "stateEffects": []
 }

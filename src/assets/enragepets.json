@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "enragepets",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "enragepets",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "adjustlotcount",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "adjustlotcount",
+    "stateEffects": []
 }

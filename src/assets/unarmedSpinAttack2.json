@@ -1,20 +1,18 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 15.0,
-        "actionCostMultiplier": 25.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_3d",
-        "areaAction": "true",
-        "areaRange": 8.0,
-        "combatSpam": "unarmed_knockdown",
-        "damageMultiplier": 3.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "unarmedspinattack2",
-        "range": -1.0,
-        "speedMultiplier": 3.0,
-        "stateEffects": [],
-        "weaponType": "UNARMEDWEAPON"
-    }
+    "accuracyBonus": 15.0,
+    "actionCostMultiplier": 25.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_3d",
+    "areaAction": "true",
+    "areaRange": 8.0,
+    "combatSpam": "unarmed_knockdown",
+    "damageMultiplier": 3.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "unarmedspinattack2",
+    "range": -1.0,
+    "speedMultiplier": 3.0,
+    "stateEffects": [],
+    "weaponType": "UNARMEDWEAPON"
 }

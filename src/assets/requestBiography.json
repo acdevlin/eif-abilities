@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "requestbiography",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "requestbiography",
+    "stateEffects": []
 }

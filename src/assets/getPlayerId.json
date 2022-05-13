@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "getplayerid",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "getplayerid",
+    "stateEffects": []
 }

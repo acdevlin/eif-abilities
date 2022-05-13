@@ -1,17 +1,15 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracySkillMod": "mindblast_accuracy",
-        "attackType": "FORCEATTACK",
-        "combatSpam": "mindblast1",
-        "damageMultiplier": 0.0,
-        "forceAttack": "true",
-        "forceCost": 200.0,
-        "name": "jedimindtrick",
-        "poolsToDamage": "NO_ATTRIBUTE",
-        "range": 32.0,
-        "speed": 4.0,
-        "stateEffects": [],
-        "visMod": 25.0
-    }
+    "accuracySkillMod": "mindblast_accuracy",
+    "attackType": "FORCEATTACK",
+    "combatSpam": "mindblast1",
+    "damageMultiplier": 0.0,
+    "dotEffects": [],
+    "forceAttack": "true",
+    "forceCost": 200.0,
+    "name": "jedimindtrick",
+    "poolsToDamage": "NO_ATTRIBUTE",
+    "range": 32.0,
+    "speed": 4.0,
+    "stateEffects": [],
+    "visMod": 25.0
 }

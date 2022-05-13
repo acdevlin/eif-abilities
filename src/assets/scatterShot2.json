@@ -1,19 +1,17 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 25.0,
-        "actionCostMultiplier": 45.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_5_single",
-        "combatSpam": "scatterblast",
-        "damageMultiplier": 5.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "scattershot2",
-        "poolsToDamage": "ACTION_ATTRIBUTE+MIND_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 2.0,
-        "stateEffects": [],
-        "weaponType": "CARBINEWEAPON"
-    }
+    "accuracyBonus": 25.0,
+    "actionCostMultiplier": 45.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_5_single",
+    "combatSpam": "scatterblast",
+    "damageMultiplier": 5.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "scattershot2",
+    "poolsToDamage": "ACTION_ATTRIBUTE+MIND_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 2.0,
+    "stateEffects": [],
+    "weaponType": "CARBINEWEAPON"
 }

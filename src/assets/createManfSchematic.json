@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "createmanfschematic",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "createmanfschematic",
+    "stateEffects": []
 }

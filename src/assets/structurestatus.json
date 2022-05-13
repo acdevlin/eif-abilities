@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "structurestatus",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "structurestatus",
+    "stateEffects": []
 }

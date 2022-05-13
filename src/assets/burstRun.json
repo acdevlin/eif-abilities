@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "burstrun",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "burstrun",
+    "stateEffects": []
 }

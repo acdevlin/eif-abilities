@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "conceal",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "conceal",
+    "stateEffects": []
 }

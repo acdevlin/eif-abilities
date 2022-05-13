@@ -1,36 +1,34 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracySkillMod": "forcelightning_accuracy",
-        "animType": "GENERATE_INTENSITY",
-        "animation": "force_lightning_1_particle_level_3",
-        "combatSpam": "forcelightningsingle2",
-        "damageType": "ELECTRICITY_DAMAGE",
-        "forceAttack": "true",
-        "forceCost": 2500.0,
-        "maxDamage": 4000.0,
-        "minDamage": 1500.0,
-        "name": "forcelightningsingle2",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": 32.0,
-        "speed": 4.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense"
-                ],
-                "defenderStateDefenseModifiers": [
-                    ""
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 30.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "visMod": 25.0
-    }
+    "accuracySkillMod": "forcelightning_accuracy",
+    "animType": "GENERATE_INTENSITY",
+    "animation": "force_lightning_1_particle_level_3",
+    "combatSpam": "forcelightningsingle2",
+    "damageType": "ELECTRICITY_DAMAGE",
+    "dotEffects": [],
+    "forceAttack": "true",
+    "forceCost": 2500.0,
+    "maxDamage": 4000.0,
+    "minDamage": 1500.0,
+    "name": "forcelightningsingle2",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": 32.0,
+    "speed": 4.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense"
+            ],
+            "defenderStateDefenseModifiers": [
+                ""
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 30.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "visMod": 25.0
 }

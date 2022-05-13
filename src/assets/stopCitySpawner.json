@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "stopcityspawner",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "stopcityspawner",
+    "stateEffects": []
 }

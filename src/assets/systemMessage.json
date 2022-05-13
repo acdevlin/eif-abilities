@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "systemmessage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "systemmessage",
+    "stateEffects": []
 }

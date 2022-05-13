@@ -1,36 +1,34 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 50.0,
-        "actionCostMultiplier": 0.0,
-        "animation": "lower_posture_2hmelee_3",
-        "combatSpam": "saber2hsweep1",
-        "damageMultiplier": 1.25,
-        "forceCostMultiplier": 1.25,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "saber2hsweep1",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.25,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "postureDownRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "posture_change_down_defense"
-                ],
-                "effectType": "POSTUREDOWN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "visMod": 25.0,
-        "weaponType": "JEDIWEAPON"
-    }
+    "accuracyBonus": 50.0,
+    "actionCostMultiplier": 0.0,
+    "animation": "lower_posture_2hmelee_3",
+    "combatSpam": "saber2hsweep1",
+    "damageMultiplier": 1.25,
+    "dotEffects": [],
+    "forceCostMultiplier": 1.25,
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "saber2hsweep1",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.25,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "postureDownRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "posture_change_down_defense"
+            ],
+            "effectType": "POSTUREDOWN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "visMod": 25.0,
+    "weaponType": "JEDIWEAPON"
 }

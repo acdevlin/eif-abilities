@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "waypoint",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "waypoint",
+    "stateEffects": []
 }

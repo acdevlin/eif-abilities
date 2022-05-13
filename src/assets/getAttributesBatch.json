@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "getattributesbatch",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "getattributesbatch",
+    "stateEffects": []
 }

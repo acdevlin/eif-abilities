@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setpermission",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setpermission",
+    "stateEffects": []
 }

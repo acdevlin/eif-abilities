@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "findmytrainer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "findmytrainer",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "healdamage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "healdamage",
+    "stateEffects": []
 }

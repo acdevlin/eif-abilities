@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "stoptracelogging",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "stoptracelogging",
+    "stateEffects": []
 }

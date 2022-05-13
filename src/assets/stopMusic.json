@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "stopmusic",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "stopmusic",
+    "stateEffects": []
 }

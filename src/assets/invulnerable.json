@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "invulnerable",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "invulnerable",
+    "stateEffects": []
 }

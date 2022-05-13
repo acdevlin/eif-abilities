@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "resourcecontainertransfer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "resourcecontainertransfer",
+    "stateEffects": []
 }

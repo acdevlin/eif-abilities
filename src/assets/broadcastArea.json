@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "broadcastarea",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "broadcastarea",
+    "stateEffects": []
 }

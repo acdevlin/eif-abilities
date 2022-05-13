@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setmatchmakingcharacterid",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setmatchmakingcharacterid",
+    "stateEffects": []
 }

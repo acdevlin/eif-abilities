@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "reconnecttotransferserver",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "reconnecttotransferserver",
+    "stateEffects": []
 }

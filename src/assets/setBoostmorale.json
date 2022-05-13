@@ -1,9 +1,7 @@
 {
-    "ability": {
-        "--actionCRC": "action.hashCode()",
-        "DoTEffects": [],
-        "action": "boostmorale",
-        "name": "setboostmorale",
-        "stateEffects": []
-    }
+    "--actionCRC": "action.hashCode()",
+    "action": "boostmorale",
+    "dotEffects": [],
+    "name": "setboostmorale",
+    "stateEffects": []
 }

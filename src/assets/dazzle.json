@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "dazzle",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "dazzle",
+    "stateEffects": []
 }

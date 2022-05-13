@@ -1,19 +1,17 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 25.0,
-        "actionCostMultiplier": 30.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_7_single",
-        "combatSpam": "burstshot",
-        "damageMultiplier": 3.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "burstshot1",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.4,
-        "stateEffects": [],
-        "weaponType": "CARBINEWEAPON"
-    }
+    "accuracyBonus": 25.0,
+    "actionCostMultiplier": 30.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_7_single",
+    "combatSpam": "burstshot",
+    "damageMultiplier": 3.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "burstshot1",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.4,
+    "stateEffects": [],
+    "weaponType": "CARBINEWEAPON"
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "requeststimpack",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "requeststimpack",
+    "stateEffects": []
 }

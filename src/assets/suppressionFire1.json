@@ -1,33 +1,31 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 25.0,
-        "actionCostMultiplier": 30.0,
-        "animation": "fire_defender_posture_change_down",
-        "combatSpam": "suppressionfire",
-        "damageMultiplier": 1.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "suppressionfire1",
-        "range": -1.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "postureDownRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "posture_change_down_defense"
-                ],
-                "effectType": "POSTUREDOWN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "RANGEDWEAPON"
-    }
+    "accuracyBonus": 25.0,
+    "actionCostMultiplier": 30.0,
+    "animation": "fire_defender_posture_change_down",
+    "combatSpam": "suppressionfire",
+    "damageMultiplier": 1.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "suppressionfire1",
+    "range": -1.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "postureDownRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "posture_change_down_defense"
+            ],
+            "effectType": "POSTUREDOWN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "RANGEDWEAPON"
 }

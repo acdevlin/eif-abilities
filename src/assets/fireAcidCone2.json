@@ -1,38 +1,36 @@
 {
-    "ability": {
-        "DoTEffects": [
-            {
-                "chance": 18.0,
-                "damageOfHit": "true",
-                "duration": 0.0,
-                "pool": "MIND",
-                "potency": 50.0,
-                "primaryPercent": 25.0,
-                "secondaryPercent": 10.0,
-                "stateDefenseModifiers": [
-                    "resistance_fire",
-                    "fire_resist"
-                ],
-                "strength": 40.0,
-                "type": "ONFIRE"
-            }
-        ],
-        "accuracyBonus": 50.0,
-        "actionCostMultiplier": 0.0,
-        "alternateAnimation": "fire_acid_thrower_wrist",
-        "animType": "GENERATE_INTENSITY",
-        "animation": "fire_acid_rifle_single_2",
-        "combatSpam": "fireacidcone2",
-        "coneAction": "true",
-        "coneAngle": 45.0,
-        "damageMultiplier": 4.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 40.0,
-        "name": "fireacidcone2",
-        "poolsToDamage": "MIND_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 2.25,
-        "stateEffects": [],
-        "weaponType": "SPECIALHEAVYWEAPON"
-    }
+    "accuracyBonus": 50.0,
+    "actionCostMultiplier": 0.0,
+    "alternateAnimation": "fire_acid_thrower_wrist",
+    "animType": "GENERATE_INTENSITY",
+    "animation": "fire_acid_rifle_single_2",
+    "combatSpam": "fireacidcone2",
+    "coneAction": "true",
+    "coneAngle": 45.0,
+    "damageMultiplier": 4.5,
+    "dotEffects": [
+        {
+            "chance": 18.0,
+            "damageOfHit": "true",
+            "duration": 0.0,
+            "pool": "MIND",
+            "potency": 50.0,
+            "primaryPercent": 25.0,
+            "secondaryPercent": 10.0,
+            "stateDefenseModifiers": [
+                "resistance_fire",
+                "fire_resist"
+            ],
+            "strength": 40.0,
+            "type": "ONFIRE"
+        }
+    ],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 40.0,
+    "name": "fireacidcone2",
+    "poolsToDamage": "MIND_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 2.25,
+    "stateEffects": [],
+    "weaponType": "SPECIALHEAVYWEAPON"
 }

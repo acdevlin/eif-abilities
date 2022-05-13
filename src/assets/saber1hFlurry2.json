@@ -1,72 +1,70 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 50.0,
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_jedi_4",
-        "areaAction": "true",
-        "areaRange": 16.0,
-        "combatSpam": "saber1hflurry2",
-        "damageMultiplier": 4.0,
-        "forceCostMultiplier": 3.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "saber1hflurry2",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 4.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "blind_defense"
-                ],
-                "effectType": "BLIND_EFFECT",
-                "stateChance": 85.0,
-                "stateLength": 60.0,
-                "stateStrength": 0.0
-            },
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "dizzy_defense"
-                ],
-                "effectType": "DIZZY_EFFECT",
-                "stateChance": 85.0,
-                "stateLength": 30.0,
-                "stateStrength": 0.0
-            },
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "stun_defense"
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 85.0,
-                "stateLength": 60.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "visMod": 25.0,
-        "weaponType": "JEDIWEAPON"
-    }
+    "accuracyBonus": 50.0,
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_jedi_4",
+    "areaAction": "true",
+    "areaRange": 16.0,
+    "combatSpam": "saber1hflurry2",
+    "damageMultiplier": 4.0,
+    "dotEffects": [],
+    "forceCostMultiplier": 3.0,
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "saber1hflurry2",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 4.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "blind_defense"
+            ],
+            "effectType": "BLIND_EFFECT",
+            "stateChance": 85.0,
+            "stateLength": 60.0,
+            "stateStrength": 0.0
+        },
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "dizzy_defense"
+            ],
+            "effectType": "DIZZY_EFFECT",
+            "stateChance": 85.0,
+            "stateLength": 30.0,
+            "stateStrength": 0.0
+        },
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "stun_defense"
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 85.0,
+            "stateLength": 60.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "visMod": 25.0,
+    "weaponType": "JEDIWEAPON"
 }

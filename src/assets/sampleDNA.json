@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "sampledna",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "sampledna",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "guild",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "guild",
+    "stateEffects": []
 }

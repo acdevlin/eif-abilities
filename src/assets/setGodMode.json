@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setgodmode",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setgodmode",
+    "stateEffects": []
 }

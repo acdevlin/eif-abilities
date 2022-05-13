@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "repairbattlefieldstructure",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "repairbattlefieldstructure",
+    "stateEffects": []
 }

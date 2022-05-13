@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "tenddamage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "tenddamage",
+    "stateEffects": []
 }

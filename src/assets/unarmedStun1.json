@@ -1,37 +1,35 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 15.0,
-        "actionCostMultiplier": 25.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_4c",
-        "areaAction": "true",
-        "areaRange": 6.0,
-        "combatSpam": "screamingsquill",
-        "damageMultiplier": 1.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "unarmedstun1",
-        "range": 6.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "stun_defense"
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 125.0,
-                "stateLength": 60.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "UNARMEDWEAPON"
-    }
+    "accuracyBonus": 15.0,
+    "actionCostMultiplier": 25.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_4c",
+    "areaAction": "true",
+    "areaRange": 6.0,
+    "combatSpam": "screamingsquill",
+    "damageMultiplier": 1.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "unarmedstun1",
+    "range": 6.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "stun_defense"
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 125.0,
+            "stateLength": 60.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "UNARMEDWEAPON"
 }

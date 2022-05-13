@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "tendwoundstool",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "tendwoundstool",
+    "stateEffects": []
 }

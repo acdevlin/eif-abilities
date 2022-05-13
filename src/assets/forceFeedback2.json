@@ -1,14 +1,12 @@
 {
-    "ability": {
-        "--animationCRC": "hashCode()",
-        "DoTEffects": [],
-        "buffClass": "SINGLE_USE_BUFF",
-        "clientEffect": "clienteffect/pl_force_feedback_self.cef",
-        "duration": 60.0,
-        "forceCost": 100.0,
-        "frsDarkBuffModifier": 0.45,
-        "frsLightBuffModifier": 0.45,
-        "name": "forcefeedback2",
-        "stateEffects": []
-    }
+    "--animationCRC": "hashCode()",
+    "buffClass": "SINGLE_USE_BUFF",
+    "clientEffect": "clienteffect/pl_force_feedback_self.cef",
+    "dotEffects": [],
+    "duration": 60.0,
+    "forceCost": 100.0,
+    "frsDarkBuffModifier": 0.45,
+    "frsLightBuffModifier": 0.45,
+    "name": "forcefeedback2",
+    "stateEffects": []
 }

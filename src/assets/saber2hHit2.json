@@ -1,21 +1,19 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 50.0,
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_jedi_1",
-        "combatSpam": "saber2hhit2",
-        "damageMultiplier": 2.0,
-        "forceCostMultiplier": 1.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "saber2hhit2",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.5,
-        "stateEffects": [],
-        "visMod": 25.0,
-        "weaponType": "JEDIWEAPON"
-    }
+    "accuracyBonus": 50.0,
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_jedi_1",
+    "combatSpam": "saber2hhit2",
+    "damageMultiplier": 2.0,
+    "dotEffects": [],
+    "forceCostMultiplier": 1.5,
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "saber2hhit2",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.5,
+    "stateEffects": [],
+    "visMod": 25.0,
+    "weaponType": "JEDIWEAPON"
 }

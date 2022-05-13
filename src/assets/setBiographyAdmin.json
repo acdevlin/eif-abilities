@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setbiographyadmin",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setbiographyadmin",
+    "stateEffects": []
 }

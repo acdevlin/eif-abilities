@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "customizevehicle",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "customizevehicle",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "cscancelticket",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "cscancelticket",
+    "stateEffects": []
 }

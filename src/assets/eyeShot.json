@@ -1,34 +1,32 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_3_special_single",
-        "combatSpam": "eyeshot",
-        "damageMultiplier": 3.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 40.0,
-        "name": "eyeshot",
-        "poolsToDamage": "MIND_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 2.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "blind_defense"
-                ],
-                "effectType": "BLIND_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 30.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_3_special_single",
+    "combatSpam": "eyeshot",
+    "damageMultiplier": 3.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 40.0,
+    "name": "eyeshot",
+    "poolsToDamage": "MIND_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 2.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "blind_defense"
+            ],
+            "effectType": "BLIND_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 30.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "forceofwill",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "forceofwill",
+    "stateEffects": []
 }

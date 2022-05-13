@@ -1,36 +1,34 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracySkillMod": "warcry",
-        "actionCostMultiplier": 0.0,
-        "animation": "warcry",
-        "combatSpam": "warcry",
-        "coneAction": "true",
-        "coneAngle": 15.0,
-        "damageMultiplier": 0.0,
-        "effectString": "clienteffect/combat_special_attacker_warcry.cef",
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "warcry1",
-        "poolsToDamage": "NO_ATTRIBUTE",
-        "range": 24.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "nextAttackDelayRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "warcry_defense"
-                ],
-                "effectType": "NEXTATTACKDELAY_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "accuracySkillMod": "warcry",
+    "actionCostMultiplier": 0.0,
+    "animation": "warcry",
+    "combatSpam": "warcry",
+    "coneAction": "true",
+    "coneAngle": 15.0,
+    "damageMultiplier": 0.0,
+    "dotEffects": [],
+    "effectString": "clienteffect/combat_special_attacker_warcry.cef",
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "warcry1",
+    "poolsToDamage": "NO_ATTRIBUTE",
+    "range": 24.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "nextAttackDelayRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "warcry_defense"
+            ],
+            "effectType": "NEXTATTACKDELAY_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

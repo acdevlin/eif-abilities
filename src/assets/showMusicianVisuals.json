@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "showmusicianvisuals",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "showmusicianvisuals",
+    "stateEffects": []
 }

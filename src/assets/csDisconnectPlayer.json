@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "csdisconnectplayer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "csdisconnectplayer",
+    "stateEffects": []
 }

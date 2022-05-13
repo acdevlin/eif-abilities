@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "unstick",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "unstick",
+    "stateEffects": []
 }

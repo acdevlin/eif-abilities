@@ -1,35 +1,33 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 10.0,
-        "actionCostMultiplier": 30.0,
-        "animation": "lower_posture_2hmelee_3",
-        "areaAction": "true",
-        "areaRange": 8.0,
-        "combatSpam": "sweep",
-        "damageMultiplier": 1.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "melee2hsweep1",
-        "range": 8.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "postureDownRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "posture_change_down_defense"
-                ],
-                "effectType": "POSTUREDOWN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "TWOHANDMELEEWEAPON"
-    }
+    "accuracyBonus": 10.0,
+    "actionCostMultiplier": 30.0,
+    "animation": "lower_posture_2hmelee_3",
+    "areaAction": "true",
+    "areaRange": 8.0,
+    "combatSpam": "sweep",
+    "damageMultiplier": 1.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "melee2hsweep1",
+    "range": 8.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "postureDownRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "posture_change_down_defense"
+            ],
+            "effectType": "POSTUREDOWN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "TWOHANDMELEEWEAPON"
 }

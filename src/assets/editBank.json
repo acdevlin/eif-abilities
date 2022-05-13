@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "editbank",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "editbank",
+    "stateEffects": []
 }

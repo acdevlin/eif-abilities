@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "boardshuttle",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "boardshuttle",
+    "stateEffects": []
 }

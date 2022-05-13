@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "delegatefactionpoints",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "delegatefactionpoints",
+    "stateEffects": []
 }

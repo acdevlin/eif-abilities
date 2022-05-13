@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "toggleawayfromkeyboard",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "toggleawayfromkeyboard",
+    "stateEffects": []
 }

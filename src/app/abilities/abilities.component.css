@@ -1,7 +1,48 @@
-​table tr {
-  border-width: 2px solid black;
-}​
+.gray { background-color: #c8c3c3 }
 
-table tr:last-child { 
-  border-bottom: none; 
+td , th {
+  white-space: normal;
+  word-wrap: break-word;
+  max-width: 200px;
+}
+
+.mat-table {
+  width: 100%;
+}
+
+.mat-row {
+  width: 100%;
+  min-height: 12px;
+}
+
+.mat-header-cell {
+  min-height: 12px;
+  font-size: larger;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.mat-header-row {
+  width: 100%;
+  min-height: 10px;
+}
+
+.mat-cell {
+  font-size: medium;
+  justify-content: center;
+  text-align: center;
+}
+
+.mat-list .mat-list-item {
+  height: 30px; /* default is 72px */
+  justify-content: center;
+  text-align: left;
+  padding: 1px;
+}
+
+.mat-card-title {
+  font-size: larger;
 }

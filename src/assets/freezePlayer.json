@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "freezeplayer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "freezeplayer",
+    "stateEffects": []
 }

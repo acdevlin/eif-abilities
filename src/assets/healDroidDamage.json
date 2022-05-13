@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "healdroiddamage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "healdroiddamage",
+    "stateEffects": []
 }

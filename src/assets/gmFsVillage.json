@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "gmfsvillage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "gmfsvillage",
+    "stateEffects": []
 }

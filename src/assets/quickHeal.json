@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "quickheal",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "quickheal",
+    "stateEffects": []
 }

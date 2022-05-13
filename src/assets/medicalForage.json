@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "medicalforage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "medicalforage",
+    "stateEffects": []
 }

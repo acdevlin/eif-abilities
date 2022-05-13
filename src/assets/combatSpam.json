@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "combatspam",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "combatspam",
+    "stateEffects": []
 }

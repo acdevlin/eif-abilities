@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "findplayer",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "findplayer",
+    "stateEffects": []
 }

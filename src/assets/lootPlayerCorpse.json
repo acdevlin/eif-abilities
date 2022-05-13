@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "lootplayercorpse",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "lootplayercorpse",
+    "stateEffects": []
 }

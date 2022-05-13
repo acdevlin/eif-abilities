@@ -1,35 +1,33 @@
 {
-    "ability": {
-        "DoTEffects": [
-            {
-                "chance": 12.0,
-                "damageOfHit": "true",
-                "duration": 0.0,
-                "pool": "HEALTH",
-                "potency": 60.0,
-                "primaryPercent": 200.0,
-                "secondaryPercent": 0.0,
-                "stateDefenseModifiers": [
-                    "resistance_bleeding",
-                    "bleed_resist"
-                ],
-                "strength": 100.0,
-                "type": "BLEEDING"
-            }
-        ],
-        "accuracyBonus": 30.0,
-        "actionCostMultiplier": 35.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_1_special_single",
-        "combatSpam": "sapblast",
-        "damageMultiplier": 3.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "healthshot2",
-        "poolsToDamage": "HEALTH_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.5,
-        "stateEffects": [],
-        "weaponType": "PISTOLWEAPON"
-    }
+    "accuracyBonus": 30.0,
+    "actionCostMultiplier": 35.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_1_special_single",
+    "combatSpam": "sapblast",
+    "damageMultiplier": 3.0,
+    "dotEffects": [
+        {
+            "chance": 12.0,
+            "damageOfHit": "true",
+            "duration": 0.0,
+            "pool": "HEALTH",
+            "potency": 60.0,
+            "primaryPercent": 200.0,
+            "secondaryPercent": 0.0,
+            "stateDefenseModifiers": [
+                "resistance_bleeding",
+                "bleed_resist"
+            ],
+            "strength": 100.0,
+            "type": "BLEEDING"
+        }
+    ],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "healthshot2",
+    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.5,
+    "stateEffects": [],
+    "weaponType": "PISTOLWEAPON"
 }

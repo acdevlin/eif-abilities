@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "generatecrafteditem",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "generatecrafteditem",
+    "stateEffects": []
 }

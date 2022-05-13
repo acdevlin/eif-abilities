@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "craft",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "craft",
+    "stateEffects": []
 }

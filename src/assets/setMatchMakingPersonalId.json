@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setmatchmakingpersonalid",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setmatchmakingpersonalid",
+    "stateEffects": []
 }

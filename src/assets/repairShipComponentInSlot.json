@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "repairshipcomponentinslot",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "repairshipcomponentinslot",
+    "stateEffects": []
 }

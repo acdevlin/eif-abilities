@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setminimumspawntime",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setminimumspawntime",
+    "stateEffects": []
 }

@@ -1,8 +1,6 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "cooldown": 2000.0,
-        "name": "createspawningelementwithdifficulty",
-        "stateEffects": []
-    }
+    "cooldown": 2000.0,
+    "dotEffects": [],
+    "name": "createspawningelementwithdifficulty",
+    "stateEffects": []
 }

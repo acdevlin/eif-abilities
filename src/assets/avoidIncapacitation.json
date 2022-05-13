@@ -1,11 +1,9 @@
 {
-    "ability": {
-        "--animationCRC": "hashCode()",
-        "DoTEffects": [],
-        "clientEffect": "clienteffect/pl_force_avoid_incap_self.cef",
-        "duration": 30.0,
-        "forceCost": 750.0,
-        "name": "avoidincapacitation",
-        "stateEffects": []
-    }
+    "--animationCRC": "hashCode()",
+    "clientEffect": "clienteffect/pl_force_avoid_incap_self.cef",
+    "dotEffects": [],
+    "duration": 30.0,
+    "forceCost": 750.0,
+    "name": "avoidincapacitation",
+    "stateEffects": []
 }

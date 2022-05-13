@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setplanetlimit",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setplanetlimit",
+    "stateEffects": []
 }

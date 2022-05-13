@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "denyservice",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "denyservice",
+    "stateEffects": []
 }

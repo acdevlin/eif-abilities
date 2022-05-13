@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "customizedroid",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "customizedroid",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "surrenderskill",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "surrenderskill",
+    "stateEffects": []
 }

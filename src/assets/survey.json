@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "survey",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "survey",
+    "stateEffects": []
 }

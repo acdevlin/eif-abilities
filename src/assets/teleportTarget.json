@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "teleporttarget",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "teleporttarget",
+    "stateEffects": []
 }

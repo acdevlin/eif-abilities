@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "harvestermakecrate",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "harvestermakecrate",
+    "stateEffects": []
 }

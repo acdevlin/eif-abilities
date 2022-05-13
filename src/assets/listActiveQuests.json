@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "listactivequests",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "listactivequests",
+    "stateEffects": []
 }

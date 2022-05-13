@@ -1,8 +1,6 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "cooldown": 3000.0,
-        "name": "createnpc",
-        "stateEffects": []
-    }
+    "cooldown": 3000.0,
+    "dotEffects": [],
+    "name": "createnpc",
+    "stateEffects": []
 }

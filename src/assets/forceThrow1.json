@@ -1,47 +1,45 @@
 {
-    "ability": {
-        "--frsDarkMaxDamageModifier": 3.0,
-        "--frsDarkMinDamageModifier": 1.0,
-        "--frsLightMaxDamageModifier": 3.0,
-        "--frsLightMinDamageModifier": 1.0,
-        "DoTEffects": [],
-        "accuracyBonus": 50.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "force_throw_1_particle_level_1",
-        "combatSpam": "forcethrow1",
-        "damageType": "KINETIC_DAMAGE",
-        "darkAlignForceCostModifier": 0.0,
-        "darkAlignMaxDamageMod": -0.75,
-        "darkAlignMinDamageMod": -0.25,
-        "forceAttack": "true",
-        "forceCost": 750.0,
-        "lightAlignForceCostModifier": 0.0,
-        "lightAlignMaxDamageMod": 0.25,
-        "lightAlignMinDamageMod": 0.75,
-        "maxDamage": 5250.0,
-        "minDamage": 4250.0,
-        "name": "forcethrow1",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": 32.0,
-        "speed": 2.5,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "blind_defense"
-                ],
-                "effectType": "BLIND_EFFECT",
-                "stateChance": 125.0,
-                "stateLength": 50.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "visMod": 25.0
-    }
+    "--frsDarkMaxDamageModifier": 3.0,
+    "--frsDarkMinDamageModifier": 1.0,
+    "--frsLightMaxDamageModifier": 3.0,
+    "--frsLightMinDamageModifier": 1.0,
+    "accuracyBonus": 50.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "force_throw_1_particle_level_1",
+    "combatSpam": "forcethrow1",
+    "damageType": "KINETIC_DAMAGE",
+    "darkAlignForceCostModifier": 0.0,
+    "darkAlignMaxDamageMod": -0.75,
+    "darkAlignMinDamageMod": -0.25,
+    "dotEffects": [],
+    "forceAttack": "true",
+    "forceCost": 750.0,
+    "lightAlignForceCostModifier": 0.0,
+    "lightAlignMaxDamageMod": 0.25,
+    "lightAlignMinDamageMod": 0.75,
+    "maxDamage": 5250.0,
+    "minDamage": 4250.0,
+    "name": "forcethrow1",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": 32.0,
+    "speed": 2.5,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "blind_defense"
+            ],
+            "effectType": "BLIND_EFFECT",
+            "stateChance": 125.0,
+            "stateLength": 50.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "visMod": 25.0
 }

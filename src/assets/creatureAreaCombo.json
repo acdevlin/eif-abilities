@@ -1,67 +1,65 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "actionCostMultiplier": 0.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "creature_attack_special_2",
-        "areaAction": "true",
-        "areaRange": 25.0,
-        "combatSpam": "attack",
-        "damageMultiplier": 1.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "creatureareacombo",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "stun_defense"
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 75.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            },
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "blind_defense"
-                ],
-                "effectType": "BLIND_EFFECT",
-                "stateChance": 75.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            },
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "intimidate_defense"
-                ],
-                "effectType": "INTIMIDATE_EFFECT",
-                "stateChance": 75.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "creature_attack_special_2",
+    "areaAction": "true",
+    "areaRange": 25.0,
+    "combatSpam": "attack",
+    "damageMultiplier": 1.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "creatureareacombo",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "stun_defense"
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 75.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        },
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "blind_defense"
+            ],
+            "effectType": "BLIND_EFFECT",
+            "stateChance": 75.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        },
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "intimidate_defense"
+            ],
+            "effectType": "INTIMIDATE_EFFECT",
+            "stateChance": 75.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

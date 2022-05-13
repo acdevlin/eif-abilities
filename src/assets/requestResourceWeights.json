@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "requestresourceweights",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "requestresourceweights",
+    "stateEffects": []
 }

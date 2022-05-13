@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "requeststatmigrationstop",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "requeststatmigrationstop",
+    "stateEffects": []
 }

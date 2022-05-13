@@ -1,19 +1,17 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 50.0,
-        "actionCostMultiplier": 15.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_2d",
-        "combatSpam": "scalpblow",
-        "damageMultiplier": 1.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "melee2hheadhit1",
-        "poolsToDamage": "HEALTH_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 0.25,
-        "stateEffects": [],
-        "weaponType": "TWOHANDMELEEWEAPON"
-    }
+    "accuracyBonus": 50.0,
+    "actionCostMultiplier": 15.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_2d",
+    "combatSpam": "scalpblow",
+    "damageMultiplier": 1.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "melee2hheadhit1",
+    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 0.25,
+    "stateEffects": [],
+    "weaponType": "TWOHANDMELEEWEAPON"
 }

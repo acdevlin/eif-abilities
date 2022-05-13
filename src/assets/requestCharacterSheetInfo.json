@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "requestcharactersheetinfo",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "requestcharactersheetinfo",
+    "stateEffects": []
 }

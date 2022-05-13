@@ -1,53 +1,51 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 30.0,
-        "actionCostMultiplier": 45.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "fire_heavy_cannon_cone_1",
-        "combatSpam": "sup_fire",
-        "coneAction": "true",
-        "coneAngle": 60.0,
-        "damageMultiplier": 1.25,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "suppressivefire",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "postureDownRecovery"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "posture_change_down_defense"
-                ],
-                "effectType": "POSTUREDOWN_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            },
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "stun_defense"
-                ],
-                "effectType": "STUN_EFFECT",
-                "stateChance": 90.0,
-                "stateLength": 10.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "ROTARYWEAPON"
-    }
+    "accuracyBonus": 30.0,
+    "actionCostMultiplier": 45.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "fire_heavy_cannon_cone_1",
+    "combatSpam": "sup_fire",
+    "coneAction": "true",
+    "coneAngle": 60.0,
+    "damageMultiplier": 1.25,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "suppressivefire",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "postureDownRecovery"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "posture_change_down_defense"
+            ],
+            "effectType": "POSTUREDOWN_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        },
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "stun_defense"
+            ],
+            "effectType": "STUN_EFFECT",
+            "stateChance": 90.0,
+            "stateLength": 10.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "ROTARYWEAPON"
 }

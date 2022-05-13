@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "detonatedroid",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "detonatedroid",
+    "stateEffects": []
 }

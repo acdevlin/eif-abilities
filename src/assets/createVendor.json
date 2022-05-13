@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "createvendor",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "createvendor",
+    "stateEffects": []
 }

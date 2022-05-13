@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setcharge",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setcharge",
+    "stateEffects": []
 }

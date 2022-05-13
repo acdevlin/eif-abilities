@@ -1,13 +1,11 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "attributesToHeal": "ACTION_ATTRIBUTE",
-        "defaultTime": 6.0,
-        "forceCost": 40.0,
-        "forceCostMultiplier": 0.05,
-        "healAmount": 500.0,
-        "name": "healactionself1",
-        "range": 0.0,
-        "stateEffects": []
-    }
+    "attributesToHeal": "ACTION_ATTRIBUTE",
+    "defaultTime": 6.0,
+    "dotEffects": [],
+    "forceCost": 40.0,
+    "forceCostMultiplier": 0.05,
+    "healAmount": 500.0,
+    "name": "healactionself1",
+    "range": 0.0,
+    "stateEffects": []
 }

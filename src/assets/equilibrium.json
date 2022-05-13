@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "equilibrium",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "equilibrium",
+    "stateEffects": []
 }

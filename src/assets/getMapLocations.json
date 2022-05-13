@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "getmaplocations",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "getmaplocations",
+    "stateEffects": []
 }

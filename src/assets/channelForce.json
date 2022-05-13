@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "channelforce",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "channelforce",
+    "stateEffects": []
 }

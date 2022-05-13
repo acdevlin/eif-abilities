@@ -1,20 +1,18 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 10.0,
-        "actionCostMultiplier": 30.0,
-        "animType": "GENERATE_INTENSITY",
-        "animation": "combo_2c",
-        "areaAction": "true",
-        "areaRange": 10.0,
-        "combatSpam": "limbbreaker",
-        "damageMultiplier": 4.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "polearmspinattack2",
-        "range": -1.0,
-        "speedMultiplier": 2.0,
-        "stateEffects": [],
-        "weaponType": "POLEARMWEAPON"
-    }
+    "accuracyBonus": 10.0,
+    "actionCostMultiplier": 30.0,
+    "animType": "GENERATE_INTENSITY",
+    "animation": "combo_2c",
+    "areaAction": "true",
+    "areaRange": 10.0,
+    "combatSpam": "limbbreaker",
+    "damageMultiplier": 4.5,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "polearmspinattack2",
+    "range": -1.0,
+    "speedMultiplier": 2.0,
+    "stateEffects": [],
+    "weaponType": "POLEARMWEAPON"
 }

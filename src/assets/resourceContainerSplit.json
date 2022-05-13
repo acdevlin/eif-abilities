@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "resourcecontainersplit",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "resourcecontainersplit",
+    "stateEffects": []
 }

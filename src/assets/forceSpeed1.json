@@ -1,11 +1,9 @@
 {
-    "ability": {
-        "--animationCRC": "hashCode()",
-        "DoTEffects": [],
-        "clientEffect": "clienteffect/pl_force_speed_self.cef",
-        "duration": 180.0,
-        "forceCost": 150.0,
-        "name": "forcespeed1",
-        "stateEffects": []
-    }
+    "--animationCRC": "hashCode()",
+    "clientEffect": "clienteffect/pl_force_speed_self.cef",
+    "dotEffects": [],
+    "duration": 180.0,
+    "forceCost": 150.0,
+    "name": "forcespeed1",
+    "stateEffects": []
 }

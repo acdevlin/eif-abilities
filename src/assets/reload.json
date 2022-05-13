@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "reload",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "reload",
+    "stateEffects": []
 }

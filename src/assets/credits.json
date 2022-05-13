@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "credits",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "credits",
+    "stateEffects": []
 }

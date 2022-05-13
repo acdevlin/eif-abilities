@@ -1,19 +1,17 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 10.0,
-        "actionCostMultiplier": 20.0,
-        "animation": "attack_high_right_light_2",
-        "areaAction": "true",
-        "areaRange": 8.0,
-        "combatSpam": "spinstrike",
-        "damageMultiplier": 3.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "melee2hspinattack1",
-        "range": 8.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [],
-        "weaponType": "TWOHANDMELEEWEAPON"
-    }
+    "accuracyBonus": 10.0,
+    "actionCostMultiplier": 20.0,
+    "animation": "attack_high_right_light_2",
+    "areaAction": "true",
+    "areaRange": 8.0,
+    "combatSpam": "spinstrike",
+    "damageMultiplier": 3.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "melee2hspinattack1",
+    "range": 8.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [],
+    "weaponType": "TWOHANDMELEEWEAPON"
 }

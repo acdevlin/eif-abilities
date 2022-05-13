@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "holocron",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "holocron",
+    "stateEffects": []
 }

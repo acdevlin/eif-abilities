@@ -1,35 +1,33 @@
 {
-    "ability": {
-        "DoTEffects": [
-            {
-                "chance": 18.0,
-                "damageOfHit": "true",
-                "duration": 0.0,
-                "pool": "ATTACK_POOL",
-                "potency": 60.0,
-                "primaryPercent": 25.0,
-                "secondaryPercent": 0.0,
-                "stateDefenseModifiers": [
-                    "resistance_bleeding",
-                    "bleed_resist"
-                ],
-                "strength": 50.0,
-                "type": "BLEEDING"
-            }
-        ],
-        "accuracyBonus": 25.0,
-        "actionCostMultiplier": 20.0,
-        "animation": "attack_high_right_medium_2",
-        "areaAction": "true",
-        "areaRange": 8.0,
-        "combatSpam": "slashspin",
-        "damageMultiplier": 2.0,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "melee1hspinattack1",
-        "range": -1.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [],
-        "weaponType": "ONEHANDMELEEWEAPON"
-    }
+    "accuracyBonus": 25.0,
+    "actionCostMultiplier": 20.0,
+    "animation": "attack_high_right_medium_2",
+    "areaAction": "true",
+    "areaRange": 8.0,
+    "combatSpam": "slashspin",
+    "damageMultiplier": 2.0,
+    "dotEffects": [
+        {
+            "chance": 18.0,
+            "damageOfHit": "true",
+            "duration": 0.0,
+            "pool": "ATTACK_POOL",
+            "potency": 60.0,
+            "primaryPercent": 25.0,
+            "secondaryPercent": 0.0,
+            "stateDefenseModifiers": [
+                "resistance_bleeding",
+                "bleed_resist"
+            ],
+            "strength": 50.0,
+            "type": "BLEEDING"
+        }
+    ],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "melee1hspinattack1",
+    "range": -1.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [],
+    "weaponType": "ONEHANDMELEEWEAPON"
 }

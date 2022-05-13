@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "changebandmusic",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "changebandmusic",
+    "stateEffects": []
 }

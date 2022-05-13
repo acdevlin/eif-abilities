@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "overridepadawantrialseligibility",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "overridepadawantrialseligibility",
+    "stateEffects": []
 }

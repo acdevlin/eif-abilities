@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "groupsay",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "groupsay",
+    "stateEffects": []
 }

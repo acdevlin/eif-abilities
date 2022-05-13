@@ -1,8 +1,6 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "cooldown": 3000.0,
-        "name": "gmrevive",
-        "stateEffects": []
-    }
+    "cooldown": 3000.0,
+    "dotEffects": [],
+    "name": "gmrevive",
+    "stateEffects": []
 }

@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "selectdraftschematic",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "selectdraftschematic",
+    "stateEffects": []
 }

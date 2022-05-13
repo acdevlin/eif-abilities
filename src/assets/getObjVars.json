@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "getobjvars",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "getobjvars",
+    "stateEffects": []
 }

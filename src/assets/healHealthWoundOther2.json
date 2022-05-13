@@ -1,13 +1,11 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "defaultTime": 6.0,
-        "forceCost": 75.0,
-        "forceCostMultiplier": 0.1,
-        "healWoundAmount": 200.0,
-        "name": "healhealthwoundother2",
-        "range": 32.0,
-        "stateEffects": [],
-        "woundAttributesToHeal": "HEALTH_ATTRIBUTE"
-    }
+    "defaultTime": 6.0,
+    "dotEffects": [],
+    "forceCost": 75.0,
+    "forceCostMultiplier": 0.1,
+    "healWoundAmount": 200.0,
+    "name": "healhealthwoundother2",
+    "range": 32.0,
+    "stateEffects": [],
+    "woundAttributesToHeal": "HEALTH_ATTRIBUTE"
 }

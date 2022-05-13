@@ -1,27 +1,25 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "animType": "GENERATE_INTENSITY",
-        "animation": "creature_attack_special_1",
-        "combatSpam": "attack",
-        "name": "knockdownattack",
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    "knockdownRecovery",
-                    "lastKnockdown"
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    ""
-                ],
-                "defenderStateDefenseModifiers": [
-                    "knockdown_defense"
-                ],
-                "effectType": "KNOCKDOWN_EFFECT",
-                "stateChance": 85.0,
-                "stateLength": 0.0,
-                "stateStrength": 0.0
-            }
-        ]
-    }
+    "animType": "GENERATE_INTENSITY",
+    "animation": "creature_attack_special_1",
+    "combatSpam": "attack",
+    "dotEffects": [],
+    "name": "knockdownattack",
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                "knockdownRecovery",
+                "lastKnockdown"
+            ],
+            "defenderJediStateDefenseModifiers": [
+                ""
+            ],
+            "defenderStateDefenseModifiers": [
+                "knockdown_defense"
+            ],
+            "effectType": "KNOCKDOWN_EFFECT",
+            "stateChance": 85.0,
+            "stateLength": 0.0,
+            "stateStrength": 0.0
+        }
+    ]
 }

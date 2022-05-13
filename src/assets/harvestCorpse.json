@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "harvestcorpse",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "harvestcorpse",
+    "stateEffects": []
 }

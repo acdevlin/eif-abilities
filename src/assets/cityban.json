@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "cityban",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "cityban",
+    "stateEffects": []
 }

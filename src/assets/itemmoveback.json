@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "itemmoveback",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "itemmoveback",
+    "stateEffects": []
 }

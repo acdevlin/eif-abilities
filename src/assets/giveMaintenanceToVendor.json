@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "givemaintenancetovendor",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "givemaintenancetovendor",
+    "stateEffects": []
 }

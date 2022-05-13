@@ -1,36 +1,34 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "accuracyBonus": 25.0,
-        "actionCostMultiplier": 35.0,
-        "animType": "GENERATE_RANGED",
-        "animation": "fire_5_special_single",
-        "combatSpam": "flurryshot",
-        "damageMultiplier": 0.5,
-        "healthCostMultiplier": 0.0,
-        "mindCostMultiplier": 0.0,
-        "name": "flurryshot1",
-        "poolsToDamage": "RANDOM_ATTRIBUTE",
-        "range": -1.0,
-        "speedMultiplier": 1.0,
-        "stateEffects": [
-            {
-                "defenderExlusionTimers": [
-                    ""
-                ],
-                "defenderJediStateDefenseModifiers": [
-                    "jedi_state_defense",
-                    "resistance_states"
-                ],
-                "defenderStateDefenseModifiers": [
-                    "dizzy_defense"
-                ],
-                "effectType": "DIZZY_EFFECT",
-                "stateChance": 100.0,
-                "stateLength": 45.0,
-                "stateStrength": 0.0
-            }
-        ],
-        "weaponType": "RIFLEWEAPON"
-    }
+    "accuracyBonus": 25.0,
+    "actionCostMultiplier": 35.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_5_special_single",
+    "combatSpam": "flurryshot",
+    "damageMultiplier": 0.5,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 0.0,
+    "name": "flurryshot1",
+    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "range": -1.0,
+    "speedMultiplier": 1.0,
+    "stateEffects": [
+        {
+            "defenderExlusionTimers": [
+                ""
+            ],
+            "defenderJediStateDefenseModifiers": [
+                "jedi_state_defense",
+                "resistance_states"
+            ],
+            "defenderStateDefenseModifiers": [
+                "dizzy_defense"
+            ],
+            "effectType": "DIZZY_EFFECT",
+            "stateChance": 100.0,
+            "stateLength": 45.0,
+            "stateStrength": 0.0
+        }
+    ],
+    "weaponType": "RIFLEWEAPON"
 }

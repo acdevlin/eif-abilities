@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "starttargetspawner",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "starttargetspawner",
+    "stateEffects": []
 }

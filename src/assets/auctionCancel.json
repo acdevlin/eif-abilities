@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "auctioncancel",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "auctioncancel",
+    "stateEffects": []
 }

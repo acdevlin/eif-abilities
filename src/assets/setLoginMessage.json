@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "setloginmessage",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "setloginmessage",
+    "stateEffects": []
 }

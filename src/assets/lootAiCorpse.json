@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "lootaicorpse",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "lootaicorpse",
+    "stateEffects": []
 }

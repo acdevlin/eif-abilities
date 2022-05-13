@@ -1,7 +1,5 @@
 {
-    "ability": {
-        "DoTEffects": [],
-        "name": "planet",
-        "stateEffects": []
-    }
+    "dotEffects": [],
+    "name": "planet",
+    "stateEffects": []
 }
