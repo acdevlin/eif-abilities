@@ -10,7 +10,11 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "saber1hcombohit1",
-    "poolsToDamage": "HEALTH_ATTRIBUTE+ACTION_ATTRIBUTE+MIND_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE",
+        "ACTION_ATTRIBUTE",
+        "MIND_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speedMultiplier": 1.25,
     "stateEffects": [],

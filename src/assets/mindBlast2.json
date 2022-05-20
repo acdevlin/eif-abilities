@@ -16,7 +16,9 @@
     "maxDamage": 500.0,
     "minDamage": 250.0,
     "name": "mindblast2",
-    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 4.0,
     "stateEffects": [

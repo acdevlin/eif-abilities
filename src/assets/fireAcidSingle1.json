@@ -26,7 +26,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 20.0,
     "name": "fireacidsingle1",
-    "poolsToDamage": "MIND_ATTRIBUTE",
+    "poolsToDamage": [
+        "MIND_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speedMultiplier": 2.25,
     "stateEffects": [],

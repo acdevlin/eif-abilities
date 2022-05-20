@@ -8,7 +8,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "legshot1",
-    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speedMultiplier": 0.25,
     "stateEffects": [],

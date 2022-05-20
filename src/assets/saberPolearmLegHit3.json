@@ -10,7 +10,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "saberpolearmleghit3",
-    "poolsToDamage": "ACTION_ATTRIBUTE",
+    "poolsToDamage": [
+        "ACTION_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speedMultiplier": 2.25,
     "stateEffects": [],

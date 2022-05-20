@@ -6,6 +6,7 @@ import sprayShot from '../../assets/sprayShot.json';
 import mindShot1 from '../../assets/mindShot1.json';
 import healthShot1 from '../../assets/healthShot1.json';
 import scatterShot1 from '../../assets/scatterShot1.json';
+import activateQuest from '../../assets/activateQuest.json';
 
 @Component({
   selector: 'app-abilities',
@@ -14,7 +15,7 @@ import scatterShot1 from '../../assets/scatterShot1.json';
 })
 export class AbilitiesComponent implements OnInit {
 
-  jsonData: any = [actionShot1, mindShot1, healthShot1, scatterShot1, disarmingShot, knockdownFire, sprayShot];
+  jsonData: any = [actionShot1, mindShot1, healthShot1, scatterShot1, disarmingShot, knockdownFire, sprayShot, activateQuest];
   displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'accuracyBonus', 'hamCosts', 'poolsToDamage',  'dotEffects', 'stateEffects'];
   dataSource = this.jsonData;
 

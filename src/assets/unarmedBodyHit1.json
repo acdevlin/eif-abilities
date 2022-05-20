@@ -9,7 +9,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "unarmedbodyhit1",
-    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speedMultiplier": 2.0,
     "stateEffects": [],

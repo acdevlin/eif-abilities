@@ -40,7 +40,10 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "melee1hscatterhit1",
-    "poolsToDamage": "ACTION_ATTRIBUTE+MIND_ATTRIBUTE",
+    "poolsToDamage": [
+        "ACTION_ATTRIBUTE",
+        "MIND_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speedMultiplier": 1.5,
     "stateEffects": [],

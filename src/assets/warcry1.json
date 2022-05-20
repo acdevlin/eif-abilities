@@ -11,7 +11,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "warcry1",
-    "poolsToDamage": "NO_ATTRIBUTE",
+    "poolsToDamage": [
+        "NO_ATTRIBUTE"
+    ],
     "range": 24.0,
     "speedMultiplier": 1.0,
     "stateEffects": [

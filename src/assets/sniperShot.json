@@ -9,7 +9,9 @@
     "minDamage": 135.0,
     "mindCostMultiplier": 2.0,
     "name": "snipershot",
-    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speed": 1.0,
     "stateEffects": [],

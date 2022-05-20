@@ -8,7 +8,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "polearmleghit1",
-    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE"
+    ],
     "range": 12.0,
     "speedMultiplier": 0.25,
     "stateEffects": [],

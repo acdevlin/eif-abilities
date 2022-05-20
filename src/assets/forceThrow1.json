@@ -20,7 +20,9 @@
     "maxDamage": 5250.0,
     "minDamage": 4250.0,
     "name": "forcethrow1",
-    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 2.5,
     "stateEffects": [

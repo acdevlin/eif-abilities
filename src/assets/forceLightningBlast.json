@@ -18,7 +18,9 @@
     "maxDamage": 16000.0,
     "minDamage": 12000.0,
     "name": "forcelightningblast",
-    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 3.0,
     "stateEffects": [

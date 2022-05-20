@@ -24,7 +24,9 @@
     "minDamage": 4500.0,
     "mindCostMultiplier": 30.0,
     "name": "forcelightningcone1",
-    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 3.0,
     "stateEffects": [],

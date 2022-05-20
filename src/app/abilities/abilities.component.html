@@ -8,7 +8,9 @@
     <!-- Name Column -->
     <ng-container matColumnDef="name">
       <th mat-header-cell *matHeaderCellDef> Name </th>
-      <td mat-cell *matCellDef="let ability"> <h3>{{ability.name}}</h3> </td>
+      <td mat-cell *matCellDef="let ability">
+        <h3>{{ability.name}}</h3>
+      </td>
     </ng-container>
 
     <!-- Weapon Type Column -->
@@ -49,17 +51,24 @@
     <!-- Target HAM Pool Column -->
     <ng-container matColumnDef="poolsToDamage">
       <th mat-header-cell *matHeaderCellDef> Target HAM Pool </th>
-      <td mat-cell *matCellDef="let ability"> 
-        <mat-card 
-        class="mat-elevation-z2" 
-        [ngStyle]="{'background-color':getTargetPoolColor(ability.poolsToDamage)}"
-        *ngIf="ability.poolsToDamage">
-          <b>{{ability.poolsToDamage}}</b>
-        </mat-card>
-        
-
+      <td mat-cell *matCellDef="let ability">
+        <div *ngIf="ability.poolsToDamage; else NoPoolsToDamageCard">
+          <mat-card class="mat-elevation-z2" *ngFor="let pool of ability.poolsToDamage"
+            [ngStyle]="{'background-color':getTargetPoolColor(pool)}">
+            <b>{{pool}}</b>
+          </mat-card>
+        </div>
+        <ng-template #NoPoolsToDamageCard>
+          <div *ngIf="ability.damageMultiplier">
+            <mat-card class="mat-elevation-z2" [ngStyle]="{'background-color': 'lightgray'}">
+              <b>RANDOM_ATTRIBUTE</b>
+            </mat-card>
+          </div>
+        </ng-template>
       </td>
     </ng-container>
+
+    
 
     <!-- DoT Effects Column -->
     <ng-container matColumnDef="dotEffects">

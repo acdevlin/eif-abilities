@@ -5,7 +5,9 @@
     "damageMultiplier": 1.0,
     "dotEffects": [],
     "name": "defaultdroidattack",
-    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
     "speedMultiplier": 1.0,
     "stateEffects": [],
     "trails": 255.0

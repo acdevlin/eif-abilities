@@ -11,7 +11,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "fullautoarea1",
-    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
     "range": -1.0,
     "speedMultiplier": 1.5,
     "stateEffects": [

@@ -5,7 +5,9 @@
     "coneAction": "false",
     "dotEffects": [],
     "name": "minefieldattack",
-    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
     "range": -1.0,
     "stateEffects": []
 }

@@ -10,7 +10,9 @@
     "maxDamage": 4000.0,
     "minDamage": 1500.0,
     "name": "forcelightningsingle2",
-    "poolsToDamage": "RANDOM_ATTRIBUTE",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 4.0,
     "stateEffects": [

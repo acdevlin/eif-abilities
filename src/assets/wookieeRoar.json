@@ -11,7 +11,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "wookieeroar",
-    "poolsToDamage": "NO_ATTRIBUTE",
+    "poolsToDamage": [
+        "NO_ATTRIBUTE"
+    ],
     "range": 15.0,
     "speedMultiplier": 1.0,
     "stateEffects": [

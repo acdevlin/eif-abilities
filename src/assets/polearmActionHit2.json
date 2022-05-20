@@ -24,7 +24,9 @@
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
     "name": "polearmactionhit2",
-    "poolsToDamage": "ACTION_ATTRIBUTE",
+    "poolsToDamage": [
+        "ACTION_ATTRIBUTE"
+    ],
     "range": 12.0,
     "speedMultiplier": 2.0,
     "stateEffects": [],

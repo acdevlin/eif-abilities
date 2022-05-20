@@ -36,7 +36,9 @@
     "maxDamage": 4000.0,
     "minDamage": 3000.0,
     "name": "forcechoke",
-    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 4.0,
     "stateEffects": [],

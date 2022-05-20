@@ -99,13 +99,17 @@ def parse_noneffect_lines(filelines: list) -> dict:
         continue
       else:
         # Valid key/value pair that should be recorded
-        try:
-          abilityDict[key] = float(val)
-        except(TypeError, ValueError) as err:
-          abilityDict[key] = val
-        except:
-          # Unknown exception
-          raise
+        if key == "poolsToDamage":
+          # Some abilities target multiple pools, so those should be separated
+          abilityDict[key] = val.split('+')
+        else:
+          try:
+            abilityDict[key] = float(val)
+          except(TypeError, ValueError) as err:
+            abilityDict[key] = val
+          except:
+            # Unknown exception
+            raise
     else:
       if line.replace(" ", "") == '}' or line.replace(" ", "") == '},':
         continue

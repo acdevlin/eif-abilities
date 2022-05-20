@@ -9,7 +9,9 @@
     "forceAttack": "true",
     "forceCost": 300.0,
     "name": "forceintimidate1",
-    "poolsToDamage": "NO_ATTRIBUTE",
+    "poolsToDamage": [
+        "NO_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 4.0,
     "stateEffects": [

@@ -17,7 +17,9 @@
     "maxDamage": 8000.0,
     "minDamage": 4500.0,
     "name": "forcelightningsingle1",
-    "poolsToDamage": "HEALTH_ATTRIBUTE",
+    "poolsToDamage": [
+        "HEALTH_ATTRIBUTE"
+    ],
     "range": 32.0,
     "speed": 1.5,
     "stateEffects": [],
