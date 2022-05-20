@@ -26,7 +26,7 @@
             "defenderStateDefenseModifiers": [
                 "dizzy_defense"
             ],
-            "effectType": "DIZZY_EFFECT",
+            "effectType": "DIZZY",
             "stateChance": 75.0,
             "stateLength": 10.0,
             "stateStrength": 0.0
@@ -42,7 +42,7 @@
             "defenderStateDefenseModifiers": [
                 "knockdown_defense"
             ],
-            "effectType": "KNOCKDOWN_EFFECT",
+            "effectType": "KNOCKDOWN",
             "stateChance": 100.0,
             "stateLength": 0.0,
             "stateStrength": 0.0

@@ -23,7 +23,7 @@
                 "jedi_state_defense",
                 "resistance_states"
             ],
-            "effectType": "INTIMIDATE_EFFECT",
+            "effectType": "INTIMIDATE",
             "stateChance": 100.0,
             "stateLength": 30.0,
             "stateStrength": 0.0

@@ -55,6 +55,8 @@ def effect_value_parser(val: str) -> Union[float, str, list[str]]:
     except ValueError:
       if '{' in val:
         retval = val.replace("{","").replace("}","").split(",")
+      elif '_EFFECT' in val:
+        retval = val.split("_")[0]
       else:
         retval = val
     except Exception as err:

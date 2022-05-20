@@ -27,7 +27,7 @@
             "defenderStateDefenseModifiers": [
                 "blind_defense"
             ],
-            "effectType": "BLIND_EFFECT",
+            "effectType": "BLIND",
             "stateChance": 50.0,
             "stateLength": 45.0,
             "stateStrength": 0.0

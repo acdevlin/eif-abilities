@@ -27,7 +27,7 @@
             "defenderStateDefenseModifiers": [
                 ""
             ],
-            "effectType": "REMOVE_COVER_EFFECT",
+            "effectType": "REMOVE",
             "stateChance": 75.0,
             "stateLength": 10.0,
             "stateStrength": 0.0

@@ -27,7 +27,7 @@
             "defenderStateDefenseModifiers": [
                 "posture_change_down_defense"
             ],
-            "effectType": "POSTUREDOWN_EFFECT",
+            "effectType": "POSTUREDOWN",
             "stateChance": 100.0,
             "stateLength": 0.0,
             "stateStrength": 0.0
@@ -43,7 +43,7 @@
             "defenderStateDefenseModifiers": [
                 "stun_defense"
             ],
-            "effectType": "STUN_EFFECT",
+            "effectType": "STUN",
             "stateChance": 90.0,
             "stateLength": 10.0,
             "stateStrength": 0.0

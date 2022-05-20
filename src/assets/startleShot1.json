@@ -24,7 +24,7 @@
             "defenderStateDefenseModifiers": [
                 "posture_change_up_defense"
             ],
-            "effectType": "POSTUREUP_EFFECT",
+            "effectType": "POSTUREUP",
             "stateChance": 100.0,
             "stateLength": 0.0,
             "stateStrength": 0.0

@@ -26,7 +26,7 @@
             "defenderStateDefenseModifiers": [
                 ""
             ],
-            "effectType": "STUN_EFFECT",
+            "effectType": "STUN",
             "stateChance": 30.0,
             "stateLength": 10.0,
             "stateStrength": 0.0

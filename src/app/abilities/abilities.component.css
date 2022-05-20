@@ -3,37 +3,43 @@
 td , th {
   white-space: normal;
   word-wrap: break-word;
-  max-width: 200px;
+  max-width: 250px;
+  vertical-align: middle !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+table {
+  border-collapse: collapse;
+  
+  flex-direction: column;
 }
 
 .mat-table {
   width: 100%;
+  overflow-x: scroll;
 }
 
-.mat-row {
+.mat-row,
+.mat-header-row {
   width: 100%;
   min-height: 12px;
+  min-width: 800px;
 }
 
-.mat-header-cell {
+.mat-header-cell, .mat-sort-header {
   min-height: 12px;
   font-size: larger;
   font-weight: bold;
-  justify-content: center;
-  text-align: center;
   padding-right: 4px;
   padding-left: 4px;
-}
-
-.mat-header-row {
-  width: 100%;
-  min-height: 10px;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .mat-cell {
   font-size: medium;
-  justify-content: center;
-  text-align: center;
+  border-right: 1px solid #000000;
 }
 
 .mat-list .mat-list-item {
@@ -45,4 +51,10 @@ td , th {
 
 .mat-card-title {
   font-size: larger;
+}
+
+/* Center text in column header elements */
+::ng-deep .mat-sort-header-container {
+  display:flex;
+  justify-content:center;
 }

@@ -21,7 +21,7 @@
             "defenderStateDefenseModifiers": [
                 "posture_change_down_defense"
             ],
-            "effectType": "POSTUREDOWN_EFFECT",
+            "effectType": "POSTUREDOWN",
             "stateChance": 115.0,
             "stateLength": 0.0,
             "stateStrength": 0.0

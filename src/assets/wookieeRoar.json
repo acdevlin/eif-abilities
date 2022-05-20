@@ -28,7 +28,7 @@
             "defenderStateDefenseModifiers": [
                 "intimidate_defense"
             ],
-            "effectType": "INTIMIDATE_EFFECT",
+            "effectType": "INTIMIDATE",
             "stateChance": 115.0,
             "stateLength": 60.0,
             "stateStrength": 0.0

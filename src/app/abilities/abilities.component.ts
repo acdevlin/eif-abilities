@@ -52,11 +52,11 @@ export class AbilitiesComponent implements AfterViewInit {
 
   public getStateColor(stateType :string) : string {
     switch(stateType) {
-      case "DIZZY_EFFECT": return "lightcoral"
-      case "BLIND_EFFECT": return "lightblue"
-      case "STUN_EFFECT": return "plum"
-      case "KNOCKDOWN_EFFECT": return "lightgreen"
-      case "NEXTATTACKDELAY_EFFECT": return "cornsilk"
+      case "DIZZY": return "lightcoral"
+      case "BLIND": return "lightblue"
+      case "STUN": return "plum"
+      case "KNOCKDOWN": return "lightgreen"
+      case "NEXTATTACKDELAY": return "cornsilk"
       default: return "tan"
     }
 

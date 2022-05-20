@@ -32,7 +32,7 @@
             "defenderStateDefenseModifiers": [
                 ""
             ],
-            "effectType": "DIZZY_EFFECT",
+            "effectType": "DIZZY",
             "stateChance": 30.0,
             "stateLength": 10.0,
             "stateStrength": 0.0

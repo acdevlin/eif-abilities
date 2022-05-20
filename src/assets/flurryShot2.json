@@ -28,7 +28,7 @@
             "defenderStateDefenseModifiers": [
                 "dizzy_defense"
             ],
-            "effectType": "DIZZY_EFFECT",
+            "effectType": "DIZZY",
             "stateChance": 100.0,
             "stateLength": 30.0,
             "stateStrength": 0.0

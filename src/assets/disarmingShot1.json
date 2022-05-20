@@ -22,7 +22,7 @@
             "defenderStateDefenseModifiers": [
                 "warcry_defense"
             ],
-            "effectType": "NEXTATTACKDELAY_EFFECT",
+            "effectType": "NEXTATTACKDELAY",
             "stateChance": 100.0,
             "stateLength": 10.0,
             "stateStrength": 0.0

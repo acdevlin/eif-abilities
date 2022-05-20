@@ -28,7 +28,7 @@
             "defenderStateDefenseModifiers": [
                 "dizzy_defense"
             ],
-            "effectType": "DIZZY_EFFECT",
+            "effectType": "DIZZY",
             "stateChance": 100.0,
             "stateLength": 30.0,
             "stateStrength": 0.0
@@ -44,7 +44,7 @@
             "defenderStateDefenseModifiers": [
                 "blind_defense"
             ],
-            "effectType": "BLIND_EFFECT",
+            "effectType": "BLIND",
             "stateChance": 100.0,
             "stateLength": 30.0,
             "stateStrength": 0.0
@@ -60,7 +60,7 @@
             "defenderStateDefenseModifiers": [
                 "stun_defense"
             ],
-            "effectType": "STUN_EFFECT",
+            "effectType": "STUN",
             "stateChance": 100.0,
             "stateLength": 30.0,
             "stateStrength": 0.0

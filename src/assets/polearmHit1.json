@@ -23,7 +23,7 @@
                 "dizzy_defense",
                 "resistance_states"
             ],
-            "effectType": "DIZZY_EFFECT",
+            "effectType": "DIZZY",
             "stateChance": 50.0,
             "stateLength": 30.0,
             "stateStrength": 0.0
@@ -39,7 +39,7 @@
                 "stun_defense",
                 "resistance_states"
             ],
-            "effectType": "STUN_EFFECT",
+            "effectType": "STUN",
             "stateChance": 50.0,
             "stateLength": 30.0,
             "stateStrength": 0.0

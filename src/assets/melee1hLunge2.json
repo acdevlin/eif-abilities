@@ -22,7 +22,7 @@
             "defenderStateDefenseModifiers": [
                 "knockdown_defense"
             ],
-            "effectType": "KNOCKDOWN_EFFECT",
+            "effectType": "KNOCKDOWN",
             "stateChance": 115.0,
             "stateLength": 10.0,
             "stateStrength": 0.0
