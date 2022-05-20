@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit, OnInit, ViewChild} from '@angular/core';
+import {MatSort, Sort} from '@angular/material/sort';
+import {MatTableDataSource} from '@angular/material/table';
 import actionShot1 from '../../assets/actionShot1.json';
 import disarmingShot from '../../assets/disarmingShot1.json';
 import knockdownFire from '../../assets/knockdownFire.json';
@@ -13,18 +15,20 @@ import activateQuest from '../../assets/activateQuest.json';
   templateUrl: './abilities.component.html',
   styleUrls: ['./abilities.component.css']
 })
-export class AbilitiesComponent implements OnInit {
+export class AbilitiesComponent implements AfterViewInit {
 
   jsonData: any = [actionShot1, mindShot1, healthShot1, scatterShot1, disarmingShot, knockdownFire, sprayShot, activateQuest];
   displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'accuracyBonus', 'hamCosts', 'poolsToDamage',  'dotEffects', 'stateEffects'];
-  dataSource = this.jsonData;
+  dataSource = new MatTableDataSource(this.jsonData);
+  @ViewChild(MatSort) sort!: MatSort;
 
   constructor() {
     // DEBUG
     console.log(this.jsonData);
   }
 
-  ngOnInit(): void {
+  ngAfterViewInit() {
+    this.dataSource.sort = this.sort;
   }
 
   public getTargetPoolColor(targetAttribute :string) {
