@@ -118,8 +118,9 @@ def parse_noneffect_lines(filelines: list) -> dict:
   return abilityDict
 
 
-def lua_to_json(basepath, filename, filepath):
+def lua_to_json(basepath, filename, filepath, onefile):
   print("Attempting to parse file: ", filepath)
+  allabilities = []
   luaContents = ""
   # Each lua file is only a few dozen lines long at the most, so we can store in memory
   with open(filepath, 'r') as luafile:
@@ -149,24 +150,28 @@ def lua_to_json(basepath, filename, filepath):
   print(json.dumps(abilityDict, sort_keys=True, indent=4))
   print('='*70)
   '''
-  # Write ability to JSON file in "assets" directory
-  outfileName = '../assets/' + filename.split('.')[0] + '.json'
-  outfilePath = str((basepath / outfileName).resolve())
-  with open(f'{outfilePath}', 'w') as outfile:
-    outfile.write(json.dumps(abilityDict, sort_keys=True, indent=4))
-    print(f"Written to {outfilePath}")
+  if not onefile:
+    # Write ability to JSON file with the same name as the ability
+    outfileName = '../assets/' + filename.split('.')[0] + '.json'
+    outfilePath = str((basepath / outfileName).resolve())
+    with open(f'{outfilePath}', 'w') as outfile:
+      outfile.write(json.dumps(abilityDict, sort_keys=True, indent=4))
+      print(f"Written to {outfilePath}")
+  return abilityDict
 
 
 def print_ability_file(filename):
   print(f"Filename: {filename}")
   with open(filename, 'r') as jsonfile:
     print(json.dumps(json.loads(jsonfile.read()), sort_keys=True, indent=4))
+  
 
 
 def main():
   # Handle command line flags
   parser = argparse.ArgumentParser(description='Turn ability files in .lua scripts of cloned EiF-Public directory into well-formatted JSON files.')
   parser.add_argument('--print', action='store_true',  help='Print JSON files to terminal upon success.')
+  parser.add_argument('--one-file', action='store_true',  help='Stores all JSON data in a single file instead of a separate file for each ability.')
   parser.add_argument('--eif-public-path', default="../../../../EiF-Public/EiF-Public/MMOCoreORB/bin/scripts/commands", 
   help='Path to Eif-Public repository\'s "bin/scripts/commands" subdirectory. If not provided, assumes the  cloned repository is 4 levels up from this script.')
   args = vars(parser.parse_args())
@@ -175,13 +180,21 @@ def main():
   basepath = Path(__file__).parent
   resolvedpath = (basepath / args['eif_public_path']).resolve()
   # Transform .lua files from EIF repo into JSON files
+  allabilities = []
   for root, dirs, files in os.walk(resolvedpath):
     print(root)
     for filename in files:
       # Read each lua file in specified dir
       if filename.endswith(".lua"):
         filepath = os.path.join(root, filename)
-        lua_to_json(basepath, filename, filepath)
+        allabilities.append(lua_to_json(basepath, filename, filepath, args['one_file']))
+  # Update consolidated ability JSON file if needed
+  if args['one_file']:
+    outfilePath = str((basepath / '../assets/AllAbilities.json').resolve())
+    if os.path.exists(outfilePath):
+      os.remove(outfilePath)
+    with open(f'{outfilePath}', 'w') as outfile:
+      outfile.write(json.dumps(allabilities, sort_keys=True, indent=4))
   
   # Dump ALL abilities json files if CLI option was specified
   if args['print']:

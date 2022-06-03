@@ -42,6 +42,12 @@
       <td mat-cell *matCellDef="let ability">{{ability.accuracyBonus}}</td>
     </ng-container>
 
+    <!-- Range Column -->
+    <ng-container matColumnDef="range">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Range</th>
+      <td mat-cell *matCellDef="let ability">{{ability.range}}</td>
+    </ng-container>
+
     <!-- HAM Cost Column -->
     <ng-container matColumnDef="hamCosts">
       <th mat-header-cell *matHeaderCellDef>HAM Costs</th>
