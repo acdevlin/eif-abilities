@@ -90,8 +90,8 @@
         </div>
         <ng-template #NoPoolsToDamageCard>
           <!-- Only display for combat abilities that deal damage -->
-          <div *ngIf="ability.damageMultiplier">
-            <mat-card class="mat-elevation-z2" [ngStyle]="{'background-color': 'lightgray'}">
+          <div *ngIf="ability.damageMultiplier > 0">
+            <mat-card class="mat-elevation-z2" [ngStyle]="{'background-color': 'plum'}">
               RANDOM_ATTRIBUTE
             </mat-card>
           </div>

@@ -35,6 +35,7 @@ export class AbilitiesComponent implements AfterViewInit {
       case "HEALTH_ATTRIBUTE": return "lightcoral"
       case "ACTION_ATTRIBUTE": return "lightgreen"
       case "MIND_ATTRIBUTE": return "lightblue"
+      case "NO_ATTRIBUTE": return "lightgray"
       default: return "plum"
     }
     
@@ -45,7 +46,7 @@ export class AbilitiesComponent implements AfterViewInit {
       case "HEALTH": return "lightcoral"
       case "ACTION": return "lightgreen"
       case "MIND": return "lightblue"
-      default: return "plum"
+      default: return "lightgray"
     }
   }
 
