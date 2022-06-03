@@ -46,11 +46,30 @@
     <ng-container matColumnDef="hamCosts">
       <th mat-header-cell *matHeaderCellDef>HAM Costs</th>
       <td mat-cell *matCellDef="let ability">
+        <div *ngIf="ability.healthCostMultiplier > 0 || ability.actionCostMultiplier > 0 || ability.mindCostMultiplier > 0 ; else NoHAMCostsCard">
         <mat-list role="list">
-          <mat-list-item role="listitem">Health: {{ability.healthCostMultiplier}}</mat-list-item>
-          <mat-list-item role="listitem">Action: {{ability.actionCostMultiplier}}</mat-list-item>
-          <mat-list-item role="listitem">Mind: {{ability.mindCostMultiplier}}</mat-list-item>
+          <mat-card class="mat-elevation-z2"
+            [ngStyle]="{'background-color':getTargetPoolColor('HEALTH_ATTRIBUTE')}">
+            Health: {{ability.healthCostMultiplier}}
+          </mat-card>
+          <mat-card class="mat-elevation-z2"
+            [ngStyle]="{'background-color':getTargetPoolColor('ACTION_ATTRIBUTE')}">
+            Action: {{ability.actionCostMultiplier}}
+          </mat-card>
+          <mat-card class="mat-elevation-z2"
+            [ngStyle]="{'background-color':getTargetPoolColor('MIND_ATTRIBUTE')}">
+            Mind: {{ability.mindCostMultiplier}}
+          </mat-card>
         </mat-list>
+      </div>
+      <ng-template #NoHAMCostsCard>
+        <!-- Only display for combat abilities -->
+        <div *ngIf="ability.speedMultiplier">
+          <mat-card class="mat-elevation-z2" [ngStyle]="{'background-color': 'lightgray'}">
+            No HAM costs
+          </mat-card>
+        </div>
+      </ng-template>
     </ng-container>
 
     <!-- Target HAM Pool Column -->
@@ -60,14 +79,14 @@
         <div *ngIf="ability.poolsToDamage; else NoPoolsToDamageCard">
           <mat-card class="mat-elevation-z2" *ngFor="let pool of ability.poolsToDamage"
             [ngStyle]="{'background-color':getTargetPoolColor(pool)}">
-            <b>{{pool}}</b>
+            {{pool}}
           </mat-card>
         </div>
         <ng-template #NoPoolsToDamageCard>
           <!-- Only display for combat abilities that deal damage -->
           <div *ngIf="ability.damageMultiplier">
             <mat-card class="mat-elevation-z2" [ngStyle]="{'background-color': 'lightgray'}">
-              <b>RANDOM_ATTRIBUTE</b>
+              RANDOM_ATTRIBUTE
             </mat-card>
           </div>
         </ng-template>
