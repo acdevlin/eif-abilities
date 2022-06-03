@@ -1,6 +1,7 @@
-import { Component, AfterViewInit, OnInit, ViewChild} from '@angular/core';
-import {MatSort, Sort} from '@angular/material/sort';
-import {MatTableDataSource} from '@angular/material/table';
+import { Component, AfterViewInit, OnInit, ViewChild } from '@angular/core';
+import { MatSort, Sort } from '@angular/material/sort';
+import { MatTableDataSource } from '@angular/material/table';
+
 import actionShot1 from '../../assets/actionShot1.json';
 import disarmingShot from '../../assets/disarmingShot1.json';
 import knockdownFire from '../../assets/knockdownFire.json';
@@ -29,6 +30,11 @@ export class AbilitiesComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     this.dataSource.sort = this.sort;
+  }
+
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
   public getTargetPoolColor(targetAttribute :string) {
