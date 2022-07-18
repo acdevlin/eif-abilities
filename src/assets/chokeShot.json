@@ -1,0 +1,21 @@
+{
+    "accuracyBonus": 30.0,
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_1_special_single",
+    "combatSpam": "chokeshot",
+    "coneAction": "true",
+    "coneAngle": 15.0,
+    "damageMultiplier": 7.0,
+    "dotEffects": [],
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 45.0,
+    "name": "chokeshot",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
+    "range": -1.0,
+    "speedMultiplier": 2.0,
+    "stateEffects": [],
+    "weaponType": "SHOTGUNWEAPON"
+}

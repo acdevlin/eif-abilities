@@ -192,11 +192,13 @@
         "stateEffects": []
     },
     {
+        "defaultTime": 4.0,
         "dotEffects": [],
         "name": "applydisease",
         "stateEffects": []
     },
     {
+        "defaultTime": 4.0,
         "dotEffects": [],
         "name": "applypoison",
         "stateEffects": []
@@ -493,6 +495,29 @@
         "stateEffects": []
     },
     {
+        "accuracyBonus": 30.0,
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "armorBreakStrength": 10.0,
+        "combatSpam": "breachshot",
+        "coneAction": "true",
+        "coneAngle": 60.0,
+        "damageMultiplier": 4.0,
+        "dotEffects": [],
+        "generalArmorBreak": "true",
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 45.0,
+        "name": "breachshot",
+        "poolsToDamage": [
+            "RANDOM_ATTRIBUTE"
+        ],
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "SHOTGUNWEAPON"
+    },
+    {
         "dotEffects": [],
         "name": "broadcast",
         "stateEffects": []
@@ -662,6 +687,27 @@
         "dotEffects": [],
         "name": "checkforcestatus",
         "stateEffects": []
+    },
+    {
+        "accuracyBonus": 30.0,
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "combatSpam": "chokeshot",
+        "coneAction": "true",
+        "coneAngle": 15.0,
+        "damageMultiplier": 7.0,
+        "dotEffects": [],
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 45.0,
+        "name": "chokeshot",
+        "poolsToDamage": [
+            "RANDOM_ATTRIBUTE"
+        ],
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "SHOTGUNWEAPON"
     },
     {
         "dotEffects": [],
@@ -903,7 +949,7 @@
         "combatSpam": "sprayshot",
         "coneAction": "true",
         "coneAngle": 60.0,
-        "damageMultiplier": 1.25,
+        "damageMultiplier": 1.65,
         "dotEffects": [],
         "healthCostMultiplier": 0.0,
         "mindCostMultiplier": 0.0,
@@ -1986,8 +2032,10 @@
         "actionCostMultiplier": 0.0,
         "areaAction": "true",
         "areaRange": 10.0,
+        "armorBreakStrength": 15.0,
         "damageMultiplier": 1.0,
         "dotEffects": [],
+        "generalArmorBreak": "false",
         "healthCostMultiplier": 0.0,
         "mindCostMultiplier": 15.0,
         "name": "fireheavyweapon",
@@ -3724,6 +3772,43 @@
         "dotEffects": [],
         "name": "guildstatus",
         "stateEffects": []
+    },
+    {
+        "accuracyBonus": 5.0,
+        "actionCostMultiplier": 35.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "combatSpam": "gutshot",
+        "coneAction": "true",
+        "coneAngle": 15.0,
+        "damageMultiplier": 4.0,
+        "dotEffects": [
+            {
+                "chance": 12.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "HEALTH",
+                "potency": 60.0,
+                "primaryPercent": 200.0,
+                "secondaryPercent": 0.0,
+                "stateDefenseModifiers": [
+                    "resistance_bleeding",
+                    "bleed_resist"
+                ],
+                "strength": 100.0,
+                "type": "BLEEDING"
+            }
+        ],
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 0.0,
+        "name": "gutshot",
+        "poolsToDamage": [
+            "HEALTH_ATTRIBUTE"
+        ],
+        "range": -1.0,
+        "speedMultiplier": 1.5,
+        "stateEffects": [],
+        "weaponType": "SHOTGUNWEAPON"
     },
     {
         "dotEffects": [],
@@ -6428,6 +6513,40 @@
         "weaponType": "RANGEDWEAPON"
     },
     {
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "combatSpam": "overheatshot",
+        "damageMultiplier": 7.0,
+        "dotEffects": [
+            {
+                "chance": 15.0,
+                "damageOfHit": "true",
+                "duration": 0.0,
+                "pool": "ATTACK_POOL",
+                "potency": 30.0,
+                "primaryPercent": 25.0,
+                "secondaryPercent": 10.0,
+                "stateDefenseModifiers": [
+                    "resistance_fire",
+                    "fire_resist"
+                ],
+                "strength": 75.0,
+                "type": "ONFIRE"
+            }
+        ],
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 50.0,
+        "name": "overheatshot",
+        "poolsToDamage": [
+            "RANDOM_ATTRIBUTE"
+        ],
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "SHOTGUNWEAPON"
+    },
+    {
         "dotEffects": [],
         "name": "overrideactivemonths",
         "stateEffects": []
@@ -6445,7 +6564,7 @@
         "combatSpam": "a_auto",
         "coneAction": "true",
         "coneAngle": 60.0,
-        "damageMultiplier": 2.0,
+        "damageMultiplier": 2.25,
         "dotEffects": [],
         "healthCostMultiplier": 0.0,
         "mindCostMultiplier": 0.0,
@@ -6454,7 +6573,7 @@
             "HEALTH_ATTRIBUTE"
         ],
         "range": -1.0,
-        "speedMultiplier": 1.5,
+        "speedMultiplier": 1.25,
         "stateEffects": [],
         "weaponType": "ROTARYWEAPON"
     },
@@ -7451,7 +7570,9 @@
         "animType": "GENERATE_RANGED",
         "animation": "fire_7_single",
         "combatSpam": "s_auto",
-        "damageMultiplier": 2.25,
+        "coneAction": "true",
+        "coneAngle": 30.0,
+        "damageMultiplier": 2.5,
         "dotEffects": [],
         "healthCostMultiplier": 0.0,
         "mindCostMultiplier": 0.0,
@@ -7460,7 +7581,7 @@
             "HEALTH_ATTRIBUTE"
         ],
         "range": -1.0,
-        "speedMultiplier": 1.5,
+        "speedMultiplier": 1.25,
         "stateEffects": [],
         "weaponType": "ROTARYWEAPON"
     },
@@ -8658,7 +8779,7 @@
                     "blind_defense"
                 ],
                 "effectType": "BLIND",
-                "stateChance": 75.0,
+                "stateChance": 85.0,
                 "stateLength": 60.0,
                 "stateStrength": 0.0
             },
@@ -8674,7 +8795,7 @@
                     "dizzy_defense"
                 ],
                 "effectType": "DIZZY",
-                "stateChance": 75.0,
+                "stateChance": 85.0,
                 "stateLength": 30.0,
                 "stateStrength": 0.0
             },
@@ -8690,7 +8811,7 @@
                     "stun_defense"
                 ],
                 "effectType": "STUN",
-                "stateChance": 76.0,
+                "stateChance": 85.0,
                 "stateLength": 60.0,
                 "stateStrength": 0.0
             }
@@ -10155,7 +10276,7 @@
         "combatSpam": "sup_fire",
         "coneAction": "true",
         "coneAngle": 60.0,
-        "damageMultiplier": 1.25,
+        "damageMultiplier": 1.5,
         "dotEffects": [],
         "healthCostMultiplier": 0.0,
         "mindCostMultiplier": 0.0,
@@ -10228,6 +10349,27 @@
         "dotEffects": [],
         "name": "survey",
         "stateEffects": []
+    },
+    {
+        "accuracyBonus": 30.0,
+        "actionCostMultiplier": 0.0,
+        "animType": "GENERATE_RANGED",
+        "animation": "fire_1_special_single",
+        "combatSpam": "sweepshot",
+        "coneAction": "true",
+        "coneAngle": 60.0,
+        "damageMultiplier": 6.0,
+        "dotEffects": [],
+        "healthCostMultiplier": 0.0,
+        "mindCostMultiplier": 45.0,
+        "name": "sweepshot",
+        "poolsToDamage": [
+            "RANDOM_ATTRIBUTE"
+        ],
+        "range": -1.0,
+        "speedMultiplier": 2.0,
+        "stateEffects": [],
+        "weaponType": "SHOTGUNWEAPON"
     },
     {
         "dotEffects": [],

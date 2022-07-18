@@ -6,7 +6,7 @@
     "combatSpam": "a_auto",
     "coneAction": "true",
     "coneAngle": 60.0,
-    "damageMultiplier": 2.0,
+    "damageMultiplier": 2.25,
     "dotEffects": [],
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,
@@ -15,7 +15,7 @@
         "HEALTH_ATTRIBUTE"
     ],
     "range": -1.0,
-    "speedMultiplier": 1.5,
+    "speedMultiplier": 1.25,
     "stateEffects": [],
     "weaponType": "ROTARYWEAPON"
 }

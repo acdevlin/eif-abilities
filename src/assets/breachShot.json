@@ -1,0 +1,23 @@
+{
+    "accuracyBonus": 30.0,
+    "actionCostMultiplier": 0.0,
+    "animType": "GENERATE_RANGED",
+    "animation": "fire_1_special_single",
+    "armorBreakStrength": 10.0,
+    "combatSpam": "breachshot",
+    "coneAction": "true",
+    "coneAngle": 60.0,
+    "damageMultiplier": 4.0,
+    "dotEffects": [],
+    "generalArmorBreak": "true",
+    "healthCostMultiplier": 0.0,
+    "mindCostMultiplier": 45.0,
+    "name": "breachshot",
+    "poolsToDamage": [
+        "RANDOM_ATTRIBUTE"
+    ],
+    "range": -1.0,
+    "speedMultiplier": 2.0,
+    "stateEffects": [],
+    "weaponType": "SHOTGUNWEAPON"
+}

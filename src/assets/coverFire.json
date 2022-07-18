@@ -6,7 +6,7 @@
     "combatSpam": "sprayshot",
     "coneAction": "true",
     "coneAngle": 60.0,
-    "damageMultiplier": 1.25,
+    "damageMultiplier": 1.65,
     "dotEffects": [],
     "healthCostMultiplier": 0.0,
     "mindCostMultiplier": 0.0,

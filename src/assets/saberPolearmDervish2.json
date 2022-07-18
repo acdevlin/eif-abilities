@@ -31,7 +31,7 @@
                 "blind_defense"
             ],
             "effectType": "BLIND",
-            "stateChance": 75.0,
+            "stateChance": 85.0,
             "stateLength": 60.0,
             "stateStrength": 0.0
         },
@@ -47,7 +47,7 @@
                 "dizzy_defense"
             ],
             "effectType": "DIZZY",
-            "stateChance": 75.0,
+            "stateChance": 85.0,
             "stateLength": 30.0,
             "stateStrength": 0.0
         },
@@ -63,7 +63,7 @@
                 "stun_defense"
             ],
             "effectType": "STUN",
-            "stateChance": 76.0,
+            "stateChance": 85.0,
             "stateLength": 60.0,
             "stateStrength": 0.0
         }
