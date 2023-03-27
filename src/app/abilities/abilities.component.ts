@@ -12,7 +12,7 @@ import allAbilities from '../../assets/AllAbilities.json';
 export class AbilitiesComponent implements AfterViewInit {
 
   jsonData: any = allAbilities;
-  displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'accuracyBonus', 'range', 'hamCosts', 'poolsToDamage',  'dotEffects', 'stateEffects'];
+  displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'accuracyBonus', 'range', 'hamCosts', 'poolsToDamage', 'dotEffects', 'stateEffects'];
   dataSource = new MatTableDataSource(this.jsonData);
   @ViewChild(MatSort) sort!: MatSort;
 
@@ -30,19 +30,19 @@ export class AbilitiesComponent implements AfterViewInit {
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
-  public getTargetPoolColor(targetAttribute :string) {
-    switch(targetAttribute) {
+  public getTargetPoolColor(targetAttribute: string) {
+    switch (targetAttribute) {
       case "HEALTH_ATTRIBUTE": return "lightcoral"
       case "ACTION_ATTRIBUTE": return "lightgreen"
       case "MIND_ATTRIBUTE": return "lightblue"
       case "NO_ATTRIBUTE": return "lightgray"
       default: return "plum"
     }
-    
+
   }
 
-  public getDotColor(targetPool :string) : string {
-    switch(targetPool) {
+  public getDotColor(targetPool: string): string {
+    switch (targetPool) {
       case "HEALTH": return "lightcoral"
       case "ACTION": return "lightgreen"
       case "MIND": return "lightblue"
@@ -50,8 +50,8 @@ export class AbilitiesComponent implements AfterViewInit {
     }
   }
 
-  public getStateColor(stateType :string) : string {
-    switch(stateType) {
+  public getStateColor(stateType: string): string {
+    switch (stateType) {
       case "DIZZY": return "lightcoral"
       case "BLIND": return "lightblue"
       case "STUN": return "plum"
@@ -59,6 +59,10 @@ export class AbilitiesComponent implements AfterViewInit {
       case "NEXTATTACKDELAY": return "cornsilk"
       default: return "tan"
     }
+  }
 
+  public getRange(range: string): string {
+    if (range == "-1") { return "weapon"; }
+    return range;
   }
 }

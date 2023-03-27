@@ -45,7 +45,7 @@
     <!-- Range Column -->
     <ng-container matColumnDef="range">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>Range</th>
-      <td mat-cell *matCellDef="let ability">{{ability.range}}</td>
+      <td mat-cell *matCellDef="let ability">{{getRange(ability.range)}}</td>
     </ng-container>
 
     <!-- HAM Cost Column -->

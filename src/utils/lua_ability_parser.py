@@ -172,7 +172,7 @@ def main():
   parser = argparse.ArgumentParser(description='Turn ability files in .lua scripts of cloned EiF-Public directory into well-formatted JSON files.')
   parser.add_argument('--print', action='store_true',  help='Print JSON files to terminal upon success.')
   parser.add_argument('--one-file', action='store_true',  help='Stores all JSON data in a single file instead of a separate file for each ability.')
-  parser.add_argument('--eif-public-path', default="../../../../EiF-Public/EiF-Public/MMOCoreORB/bin/scripts/commands", 
+  parser.add_argument('--eif-public-path', default="../../../../EiF-Public/MMOCoreORB/bin/scripts/commands", 
   help='Path to Eif-Public repository\'s "bin/scripts/commands" subdirectory. If not provided, assumes the  cloned repository is 4 levels up from this script.')
   args = vars(parser.parse_args())
 

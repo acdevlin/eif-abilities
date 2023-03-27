@@ -108,5 +108,7 @@
       }
     }
   },
-  "defaultProject": "eif-abilities"
+  "cli": {
+    "analytics": "32a0915f-c931-4a71-a816-710f928018ff"
+  }
 }
