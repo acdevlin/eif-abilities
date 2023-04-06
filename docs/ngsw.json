@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1680811813721,
+  "index": "/eif-abilities/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/eif-abilities/favicon.ico",
+        "/eif-abilities/index.html",
+        "/eif-abilities/main.6cf64bf4bb071822.js",
+        "/eif-abilities/manifest.webmanifest",
+        "/eif-abilities/polyfills.b5ef127279ebe8f9.js",
+        "/eif-abilities/runtime.a83f51be096f61b0.js",
+        "/eif-abilities/styles.03d0ed2f09abb9a2.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/eif-abilities/assets/AllAbilities.json",
+        "/eif-abilities/assets/icons/icon-128x128.png",
+        "/eif-abilities/assets/icons/icon-144x144.png",
+        "/eif-abilities/assets/icons/icon-152x152.png",
+        "/eif-abilities/assets/icons/icon-192x192.png",
+        "/eif-abilities/assets/icons/icon-384x384.png",
+        "/eif-abilities/assets/icons/icon-512x512.png",
+        "/eif-abilities/assets/icons/icon-72x72.png",
+        "/eif-abilities/assets/icons/icon-96x96.png",
+        "/eif-abilities/assets/icons/lightsabers.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/eif-abilities/assets/AllAbilities.json": "9f67220042e05e21f56479dcdeea014e2173fae1",
+    "/eif-abilities/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/eif-abilities/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/eif-abilities/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/eif-abilities/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/eif-abilities/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/eif-abilities/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/eif-abilities/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/eif-abilities/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/eif-abilities/assets/icons/lightsabers.png": "f9714651967bc6f38dc5baadcec54e56f8a248fa",
+    "/eif-abilities/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/eif-abilities/index.html": "21dac3f0e3a055a8467c598cd101f1af65b9b194",
+    "/eif-abilities/main.6cf64bf4bb071822.js": "7a8f3e46f685a423d005318c831e11706c31aba0",
+    "/eif-abilities/manifest.webmanifest": "54a89a6bd50e30ef9e8c919ed0232dad46158353",
+    "/eif-abilities/polyfills.b5ef127279ebe8f9.js": "6627ea6f62ca1f35a351539d257cf7886ec25b35",
+    "/eif-abilities/runtime.a83f51be096f61b0.js": "13416342b64cf8006ba2406ce56ee6b69a57c14f",
+    "/eif-abilities/styles.03d0ed2f09abb9a2.css": "e6f072cdb4ef1cbfae155ac2f21b845d4b12299e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
