@@ -12,13 +12,11 @@ import allAbilities from '../../assets/AllAbilities.json';
 export class AbilitiesComponent implements AfterViewInit {
 
   jsonData: any = allAbilities;
-  displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'accuracyBonus', 'range', 'hamCosts', 'poolsToDamage', 'dotEffects', 'stateEffects'];
+  displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'coneAction', 'accuracyBonus', 'range', 'hamCosts', 'poolsToDamage', 'dotEffects', 'stateEffects'];
   dataSource = new MatTableDataSource(this.jsonData);
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor() {
-    // DEBUG
-    console.log(this.jsonData);
   }
 
   ngAfterViewInit() {
