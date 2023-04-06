@@ -1,8 +1,0 @@
-{
-    "--actionCRC": "action.hashCode()",
-    "action": "retreat",
-    "combatSpam": "retreat_buff",
-    "dotEffects": [],
-    "name": "retreat",
-    "stateEffects": []
-}

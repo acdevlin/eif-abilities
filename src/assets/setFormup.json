@@ -1,7 +1,0 @@
-{
-    "--actionCRC": "action.hashCode()",
-    "action": "formup",
-    "dotEffects": [],
-    "name": "setformup",
-    "stateEffects": []
-}

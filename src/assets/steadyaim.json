@@ -1,8 +1,0 @@
-{
-    "--actionCRC": "action.hashCode()",
-    "action": "steadyaim",
-    "combatSpam": "steadyaim_buff",
-    "dotEffects": [],
-    "name": "steadyaim",
-    "stateEffects": []
-}

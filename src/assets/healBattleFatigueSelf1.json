@@ -1,9 +1,0 @@
-{
-    "defaultTime": 6.0,
-    "dotEffects": [],
-    "forceCost": 60.0,
-    "forceCostMultiplier": 0.1,
-    "healBattleFatigue": 150.0,
-    "name": "healbattlefatigueself1",
-    "stateEffects": []
-}

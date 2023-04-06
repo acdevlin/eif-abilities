@@ -1,7 +1,0 @@
-{
-    "--actionCRC": "action.hashCode()",
-    "action": "retreat",
-    "dotEffects": [],
-    "name": "setretreat",
-    "stateEffects": []
-}

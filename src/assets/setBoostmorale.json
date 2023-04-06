@@ -1,7 +1,0 @@
-{
-    "--actionCRC": "action.hashCode()",
-    "action": "boostmorale",
-    "dotEffects": [],
-    "name": "setboostmorale",
-    "stateEffects": []
-}

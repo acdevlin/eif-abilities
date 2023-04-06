@@ -1,7 +1,0 @@
-{
-    "--actionCRC": "action.hashCode()",
-    "action": "steadyaim",
-    "dotEffects": [],
-    "name": "setsteadyaim",
-    "stateEffects": []
-}
