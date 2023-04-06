@@ -36,6 +36,13 @@
       <td mat-cell *matCellDef="let ability">{{ability.speedMultiplier | number:'1.1-2'}}</td>
     </ng-container>
 
+    <!-- DPS Column -->
+    <!-- TODO: debug why mat-sort-header can't sort this -->
+    <ng-container matColumnDef="dps">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>DPS</th>
+      <td mat-cell *matCellDef="let ability">{{(ability.damageMultiplier / ability.speedMultiplier) | number:'1.1-2'}}</td>
+    </ng-container>
+
     <!-- Accuracy Bonus Column -->
     <ng-container matColumnDef="accuracyBonus">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>Accuracy Bonus</th>

@@ -12,7 +12,7 @@ import allAbilities from '../../assets/AllAbilities.json';
 export class AbilitiesComponent implements AfterViewInit {
 
   jsonData: any = allAbilities;
-  displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'coneAction', 'accuracyBonus', 'range', 'hamCosts', 'poolsToDamage', 'dotEffects', 'stateEffects'];
+  displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'dps', 'coneAction', 'accuracyBonus', 'range', 'hamCosts', 'poolsToDamage', 'dotEffects', 'stateEffects'];
   dataSource = new MatTableDataSource(this.jsonData);
   @ViewChild(MatSort) sort!: MatSort;
 
@@ -42,8 +42,11 @@ export class AbilitiesComponent implements AfterViewInit {
   public getDotColor(targetPool: string): string {
     switch (targetPool) {
       case "HEALTH": return "lightcoral"
+      case "HEALTH_POOL": return "lightcoral"
       case "ACTION": return "lightgreen"
+      case "ACTION_POOL": return "lightgreen"
       case "MIND": return "lightblue"
+      case "MIND_POOL": return "lightblue"
       default: return "lightgray"
     }
   }
@@ -55,7 +58,9 @@ export class AbilitiesComponent implements AfterViewInit {
       case "STUN": return "plum"
       case "KNOCKDOWN": return "lightgreen"
       case "NEXTATTACKDELAY": return "cornsilk"
-      default: return "tan"
+      case "INTIMIDATE": return "orange"
+      case "POSTUREDOWN": return "tan"
+      default: return "lightgray"
     }
   }
 
