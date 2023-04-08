@@ -68,4 +68,14 @@ export class AbilitiesComponent implements AfterViewInit {
     if (range == "-1") { return "weapon"; }
     return range;
   }
+
+  public getAoE(coneAction: boolean, coneAngle: string, areaAction: boolean, areaRange: string) {
+    if (coneAction) {
+      return coneAngle + "° Cone";
+    }
+    if (areaAction) {
+      return areaRange + "m Area";
+    }
+    return "None";
+  }
 }
