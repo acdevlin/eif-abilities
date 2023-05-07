@@ -14,6 +14,7 @@ export class AbilitiesComponent implements AfterViewInit {
   jsonData: any = allAbilities;
   displayedColumns: string[] = ['name', 'weaponType', 'damageMultiplier', 'speedMultiplier', 'dps', 'coneAction', 'accuracyBonus', 'range', 'hamCosts', 'poolsToDamage', 'dotEffects', 'stateEffects'];
   dataSource = new MatTableDataSource(this.jsonData);
+  panelOpenState = false;
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor() {

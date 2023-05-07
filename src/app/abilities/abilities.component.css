@@ -40,6 +40,7 @@ table {
 .mat-cell {
   font-size: medium;
   border-right: 1px solid #000000;
+  justify-content: center !important;
 }
 
 .mat-list .mat-list-item {
@@ -49,8 +50,11 @@ table {
   padding: 1px;
 }
 
-.mat-card-title {
+::ng-deep .mat-panel-title {
   font-size: larger;
+  height: 40px;
+  justify-content: center !important;
+  align-items: center;
 }
 
 .mat-form-field {
